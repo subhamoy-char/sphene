@@ -1,0 +1,14128 @@
+%!PS-Adobe-2.0 EPSF-2.0
+%%Title: All-phase-DOS-COHP.eps
+%%Creator: gnuplot 5.2 patchlevel 8
+%%CreationDate: Mon Apr 15 10:50:50 2024
+%%DocumentFonts: (atend)
+%%BoundingBox: 50 50 554 410
+%%EndComments
+%%BeginProlog
+/gnudict 256 dict def
+gnudict begin
+%
+% The following true/false flags may be edited by hand if desired.
+% The unit line width and grayscale image gamma correction may also be changed.
+%
+/Color true def
+/Blacktext false def
+/Solid false def
+/Dashlength 1 def
+/Landscape false def
+/Level1 false def
+/Level3 false def
+/Rounded false def
+/ClipToBoundingBox false def
+/SuppressPDFMark false def
+/TransparentPatterns false def
+/gnulinewidth 5.000 def
+/userlinewidth gnulinewidth def
+/Gamma 1.0 def
+/BackgroundColor {-1.000 -1.000 -1.000} def
+%
+/vshift -46 def
+/dl1 {
+  10.0 Dashlength userlinewidth gnulinewidth div mul mul mul
+  Rounded { currentlinewidth 0.75 mul sub dup 0 le { pop 0.01 } if } if
+} def
+/dl2 {
+  10.0 Dashlength userlinewidth gnulinewidth div mul mul mul
+  Rounded { currentlinewidth 0.75 mul add } if
+} def
+/hpt_ 31.5 def
+/vpt_ 31.5 def
+/hpt hpt_ def
+/vpt vpt_ def
+/doclip {
+  ClipToBoundingBox {
+    newpath 50 50 moveto 554 50 lineto 554 410 lineto 50 410 lineto closepath
+    clip
+  } if
+} def
+%
+% Gnuplot Prolog Version 5.2 (Dec 2017)
+%
+%/SuppressPDFMark true def
+%
+/M {moveto} bind def
+/L {lineto} bind def
+/R {rmoveto} bind def
+/V {rlineto} bind def
+/N {newpath moveto} bind def
+/Z {closepath} bind def
+/C {setrgbcolor} bind def
+/f {rlineto fill} bind def
+/g {setgray} bind def
+/Gshow {show} def   % May be redefined later in the file to support UTF-8
+/vpt2 vpt 2 mul def
+/hpt2 hpt 2 mul def
+/Lshow {currentpoint stroke M 0 vshift R 
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/Rshow {currentpoint stroke M dup stringwidth pop neg vshift R
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/Cshow {currentpoint stroke M dup stringwidth pop -2 div vshift R 
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/UP {dup vpt_ mul /vpt exch def hpt_ mul /hpt exch def
+  /hpt2 hpt 2 mul def /vpt2 vpt 2 mul def} def
+/DL {Color {setrgbcolor Solid {pop []} if 0 setdash}
+ {pop pop pop 0 setgray Solid {pop []} if 0 setdash} ifelse} def
+/BL {stroke userlinewidth 2 mul setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+/AL {stroke userlinewidth 2 div setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+/UL {dup gnulinewidth mul /userlinewidth exch def
+	dup 1 lt {pop 1} if 10 mul /udl exch def} def
+/PL {stroke userlinewidth setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+3.8 setmiterlimit
+% Classic Line colors (version 5.0)
+/LCw {1 1 1} def
+/LCb {0 0 0} def
+/LCa {0 0 0} def
+/LC0 {1 0 0} def
+/LC1 {0 1 0} def
+/LC2 {0 0 1} def
+/LC3 {1 0 1} def
+/LC4 {0 1 1} def
+/LC5 {1 1 0} def
+/LC6 {0 0 0} def
+/LC7 {1 0.3 0} def
+/LC8 {0.5 0.5 0.5} def
+% Default dash patterns (version 5.0)
+/LTB {BL [] LCb DL} def
+/LTw {PL [] 1 setgray} def
+/LTb {PL [] LCb DL} def
+/LTa {AL [1 udl mul 2 udl mul] 0 setdash LCa setrgbcolor} def
+/LT0 {PL [] LC0 DL} def
+/LT1 {PL [2 dl1 3 dl2] LC1 DL} def
+/LT2 {PL [1 dl1 1.5 dl2] LC2 DL} def
+/LT3 {PL [6 dl1 2 dl2 1 dl1 2 dl2] LC3 DL} def
+/LT4 {PL [1 dl1 2 dl2 6 dl1 2 dl2 1 dl1 2 dl2] LC4 DL} def
+/LT5 {PL [4 dl1 2 dl2] LC5 DL} def
+/LT6 {PL [1.5 dl1 1.5 dl2 1.5 dl1 1.5 dl2 1.5 dl1 6 dl2] LC6 DL} def
+/LT7 {PL [3 dl1 3 dl2 1 dl1 3 dl2] LC7 DL} def
+/LT8 {PL [2 dl1 2 dl2 2 dl1 6 dl2] LC8 DL} def
+/SL {[] 0 setdash} def
+/Pnt {stroke [] 0 setdash gsave 1 setlinecap M 0 0 V stroke grestore} def
+/Dia {stroke [] 0 setdash 2 copy vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath stroke
+  Pnt} def
+/Pls {stroke [] 0 setdash vpt sub M 0 vpt2 V
+  currentpoint stroke M
+  hpt neg vpt neg R hpt2 0 V stroke
+ } def
+/Box {stroke [] 0 setdash 2 copy exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath stroke
+  Pnt} def
+/Crs {stroke [] 0 setdash exch hpt sub exch vpt add M
+  hpt2 vpt2 neg V currentpoint stroke M
+  hpt2 neg 0 R hpt2 vpt2 V stroke} def
+/TriU {stroke [] 0 setdash 2 copy vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath stroke
+  Pnt} def
+/Star {2 copy Pls Crs} def
+/BoxF {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath fill} def
+/TriUF {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath fill} def
+/TriD {stroke [] 0 setdash 2 copy vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath stroke
+  Pnt} def
+/TriDF {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath fill} def
+/DiaF {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath fill} def
+/Pent {stroke [] 0 setdash 2 copy gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath stroke grestore Pnt} def
+/PentF {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath fill grestore} def
+/Circle {stroke [] 0 setdash 2 copy
+  hpt 0 360 arc stroke Pnt} def
+/CircleF {stroke [] 0 setdash hpt 0 360 arc fill} def
+/C0 {BL [] 0 setdash 2 copy moveto vpt 90 450 arc} bind def
+/C1 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C2 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C3 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C4 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 180 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C5 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc
+	2 copy moveto
+	2 copy vpt 180 270 arc closepath fill
+	vpt 0 360 arc} bind def
+/C6 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C7 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C8 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 270 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C9 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 270 450 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C10 {BL [] 0 setdash 2 copy 2 copy moveto vpt 270 360 arc closepath fill
+	2 copy moveto
+	2 copy vpt 90 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C11 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 180 arc closepath fill
+	2 copy moveto
+	2 copy vpt 270 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C12 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 180 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C13 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc closepath fill
+	2 copy moveto
+	2 copy vpt 180 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C14 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 360 arc closepath fill
+	vpt 0 360 arc} bind def
+/C15 {BL [] 0 setdash 2 copy vpt 0 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/Rec {newpath 4 2 roll moveto 1 index 0 rlineto 0 exch rlineto
+	neg 0 rlineto closepath} bind def
+/Square {dup Rec} bind def
+/Bsquare {vpt sub exch vpt sub exch vpt2 Square} bind def
+/S0 {BL [] 0 setdash 2 copy moveto 0 vpt rlineto BL Bsquare} bind def
+/S1 {BL [] 0 setdash 2 copy vpt Square fill Bsquare} bind def
+/S2 {BL [] 0 setdash 2 copy exch vpt sub exch vpt Square fill Bsquare} bind def
+/S3 {BL [] 0 setdash 2 copy exch vpt sub exch vpt2 vpt Rec fill Bsquare} bind def
+/S4 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt Square fill Bsquare} bind def
+/S5 {BL [] 0 setdash 2 copy 2 copy vpt Square fill
+	exch vpt sub exch vpt sub vpt Square fill Bsquare} bind def
+/S6 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill Bsquare} bind def
+/S7 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill
+	2 copy vpt Square fill Bsquare} bind def
+/S8 {BL [] 0 setdash 2 copy vpt sub vpt Square fill Bsquare} bind def
+/S9 {BL [] 0 setdash 2 copy vpt sub vpt vpt2 Rec fill Bsquare} bind def
+/S10 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt Square fill
+	Bsquare} bind def
+/S11 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt2 vpt Rec fill
+	Bsquare} bind def
+/S12 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill Bsquare} bind def
+/S13 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill
+	2 copy vpt Square fill Bsquare} bind def
+/S14 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill
+	2 copy exch vpt sub exch vpt Square fill Bsquare} bind def
+/S15 {BL [] 0 setdash 2 copy Bsquare fill Bsquare} bind def
+/D0 {gsave translate 45 rotate 0 0 S0 stroke grestore} bind def
+/D1 {gsave translate 45 rotate 0 0 S1 stroke grestore} bind def
+/D2 {gsave translate 45 rotate 0 0 S2 stroke grestore} bind def
+/D3 {gsave translate 45 rotate 0 0 S3 stroke grestore} bind def
+/D4 {gsave translate 45 rotate 0 0 S4 stroke grestore} bind def
+/D5 {gsave translate 45 rotate 0 0 S5 stroke grestore} bind def
+/D6 {gsave translate 45 rotate 0 0 S6 stroke grestore} bind def
+/D7 {gsave translate 45 rotate 0 0 S7 stroke grestore} bind def
+/D8 {gsave translate 45 rotate 0 0 S8 stroke grestore} bind def
+/D9 {gsave translate 45 rotate 0 0 S9 stroke grestore} bind def
+/D10 {gsave translate 45 rotate 0 0 S10 stroke grestore} bind def
+/D11 {gsave translate 45 rotate 0 0 S11 stroke grestore} bind def
+/D12 {gsave translate 45 rotate 0 0 S12 stroke grestore} bind def
+/D13 {gsave translate 45 rotate 0 0 S13 stroke grestore} bind def
+/D14 {gsave translate 45 rotate 0 0 S14 stroke grestore} bind def
+/D15 {gsave translate 45 rotate 0 0 S15 stroke grestore} bind def
+/DiaE {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath stroke} def
+/BoxE {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath stroke} def
+/TriUE {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath stroke} def
+/TriDE {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath stroke} def
+/PentE {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath stroke grestore} def
+/CircE {stroke [] 0 setdash 
+  hpt 0 360 arc stroke} def
+/Opaque {gsave closepath 1 setgray fill grestore 0 setgray closepath} def
+/DiaW {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V Opaque stroke} def
+/BoxW {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V Opaque stroke} def
+/TriUW {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V Opaque stroke} def
+/TriDW {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V Opaque stroke} def
+/PentW {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  Opaque stroke grestore} def
+/CircW {stroke [] 0 setdash 
+  hpt 0 360 arc Opaque stroke} def
+/BoxFill {gsave Rec 1 setgray fill grestore} def
+/Density {
+  /Fillden exch def
+  currentrgbcolor
+  /ColB exch def /ColG exch def /ColR exch def
+  /ColR ColR Fillden mul Fillden sub 1 add def
+  /ColG ColG Fillden mul Fillden sub 1 add def
+  /ColB ColB Fillden mul Fillden sub 1 add def
+  ColR ColG ColB setrgbcolor} def
+/BoxColFill {gsave Rec PolyFill} def
+/PolyFill {gsave Density fill grestore grestore} def
+/h {rlineto rlineto rlineto closepath gsave fill grestore stroke} bind def
+%
+% PostScript Level 1 Pattern Fill routine for rectangles
+% Usage: x y w h s a XX PatternFill
+%	x,y = lower left corner of box to be filled
+%	w,h = width and height of box
+%	  a = angle in degrees between lines and x-axis
+%	 XX = 0/1 for no/yes cross-hatch
+%
+/PatternFill {gsave /PFa [ 9 2 roll ] def
+  PFa 0 get PFa 2 get 2 div add PFa 1 get PFa 3 get 2 div add translate
+  PFa 2 get -2 div PFa 3 get -2 div PFa 2 get PFa 3 get Rec
+  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
+  clip
+  currentlinewidth 0.5 mul setlinewidth
+  /PFs PFa 2 get dup mul PFa 3 get dup mul add sqrt def
+  0 0 M PFa 5 get rotate PFs -2 div dup translate
+  0 1 PFs PFa 4 get div 1 add floor cvi
+	{PFa 4 get mul 0 M 0 PFs V} for
+  0 PFa 6 get ne {
+	0 1 PFs PFa 4 get div 1 add floor cvi
+	{PFa 4 get mul 0 2 1 roll M PFs 0 V} for
+ } if
+  stroke grestore} def
+%
+/languagelevel where
+ {pop languagelevel} {1} ifelse
+dup 2 lt
+	{/InterpretLevel1 true def
+	 /InterpretLevel3 false def}
+	{/InterpretLevel1 Level1 def
+	 2 gt
+	    {/InterpretLevel3 Level3 def}
+	    {/InterpretLevel3 false def}
+	 ifelse }
+ ifelse
+%
+% PostScript level 2 pattern fill definitions
+%
+/Level2PatternFill {
+/Tile8x8 {/PaintType 2 /PatternType 1 /TilingType 1 /BBox [0 0 8 8] /XStep 8 /YStep 8}
+	bind def
+/KeepColor {currentrgbcolor [/Pattern /DeviceRGB] setcolorspace} bind def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke} 
+>> matrix makepattern
+/Pat1 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke
+	0 4 M 4 8 L 8 4 L 4 0 L 0 4 L stroke}
+>> matrix makepattern
+/Pat2 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 0 8 L
+	8 8 L 8 0 L 0 0 L fill}
+>> matrix makepattern
+/Pat3 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -4 8 M 8 -4 L
+	0 12 M 12 0 L stroke}
+>> matrix makepattern
+/Pat4 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -4 0 M 8 12 L
+	0 -4 M 12 8 L stroke}
+>> matrix makepattern
+/Pat5 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -2 8 M 4 -4 L
+	0 12 M 8 -4 L 4 12 M 10 0 L stroke}
+>> matrix makepattern
+/Pat6 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -2 0 M 4 12 L
+	0 -4 M 8 12 L 4 -4 M 10 8 L stroke}
+>> matrix makepattern
+/Pat7 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 8 -2 M -4 4 L
+	12 0 M -4 8 L 12 4 M 0 10 L stroke}
+>> matrix makepattern
+/Pat8 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 -2 M 12 4 L
+	-4 0 M 12 8 L -4 4 M 8 10 L stroke}
+>> matrix makepattern
+/Pat9 exch def
+/Pattern1 {PatternBgnd KeepColor Pat1 setpattern} bind def
+/Pattern2 {PatternBgnd KeepColor Pat2 setpattern} bind def
+/Pattern3 {PatternBgnd KeepColor Pat3 setpattern} bind def
+/Pattern4 {PatternBgnd KeepColor Landscape {Pat5} {Pat4} ifelse setpattern} bind def
+/Pattern5 {PatternBgnd KeepColor Landscape {Pat4} {Pat5} ifelse setpattern} bind def
+/Pattern6 {PatternBgnd KeepColor Landscape {Pat9} {Pat6} ifelse setpattern} bind def
+/Pattern7 {PatternBgnd KeepColor Landscape {Pat8} {Pat7} ifelse setpattern} bind def
+} def
+%
+%
+%End of PostScript Level 2 code
+%
+/PatternBgnd {
+  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
+} def
+%
+% Substitute for Level 2 pattern fill codes with
+% grayscale if Level 2 support is not selected.
+%
+/Level1PatternFill {
+/Pattern1 {0.250 Density} bind def
+/Pattern2 {0.500 Density} bind def
+/Pattern3 {0.750 Density} bind def
+/Pattern4 {0.125 Density} bind def
+/Pattern5 {0.375 Density} bind def
+/Pattern6 {0.625 Density} bind def
+/Pattern7 {0.875 Density} bind def
+} def
+%
+% Now test for support of Level 2 code
+%
+Level1 {Level1PatternFill} {Level2PatternFill} ifelse
+%
+/Symbol-Oblique /Symbol findfont [1 0 .167 1 0 0] makefont
+dup length dict begin {1 index /FID eq {pop pop} {def} ifelse} forall
+currentdict end definefont pop
+%
+%
+% Encoding for ISO-8859-1 (also called Latin1)
+%
+/reencodeISO {
+dup dup findfont dup length dict begin
+{ 1 index /FID ne { def }{ pop pop } ifelse } forall
+currentdict /CharStrings known {
+	CharStrings /Idieresis known {
+		/Encoding ISOLatin1Encoding def } if
+} if
+currentdict end definefont
+} def
+/ISOLatin1Encoding [
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/space/exclam/quotedbl/numbersign/dollar/percent/ampersand/quoteright
+/parenleft/parenright/asterisk/plus/comma/minus/period/slash
+/zero/one/two/three/four/five/six/seven/eight/nine/colon/semicolon
+/less/equal/greater/question/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N
+/O/P/Q/R/S/T/U/V/W/X/Y/Z/bracketleft/backslash/bracketright
+/asciicircum/underscore/quoteleft/a/b/c/d/e/f/g/h/i/j/k/l/m
+/n/o/p/q/r/s/t/u/v/w/x/y/z/braceleft/bar/braceright/asciitilde
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/dotlessi/grave/acute/circumflex/tilde/macron/breve
+/dotaccent/dieresis/.notdef/ring/cedilla/.notdef/hungarumlaut
+/ogonek/caron/space/exclamdown/cent/sterling/currency/yen/brokenbar
+/section/dieresis/copyright/ordfeminine/guillemotleft/logicalnot
+/hyphen/registered/macron/degree/plusminus/twosuperior/threesuperior
+/acute/mu/paragraph/periodcentered/cedilla/onesuperior/ordmasculine
+/guillemotright/onequarter/onehalf/threequarters/questiondown
+/Agrave/Aacute/Acircumflex/Atilde/Adieresis/Aring/AE/Ccedilla
+/Egrave/Eacute/Ecircumflex/Edieresis/Igrave/Iacute/Icircumflex
+/Idieresis/Eth/Ntilde/Ograve/Oacute/Ocircumflex/Otilde/Odieresis
+/multiply/Oslash/Ugrave/Uacute/Ucircumflex/Udieresis/Yacute
+/Thorn/germandbls/agrave/aacute/acircumflex/atilde/adieresis
+/aring/ae/ccedilla/egrave/eacute/ecircumflex/edieresis/igrave
+/iacute/icircumflex/idieresis/eth/ntilde/ograve/oacute/ocircumflex
+/otilde/odieresis/divide/oslash/ugrave/uacute/ucircumflex/udieresis
+/yacute/thorn/ydieresis
+] def
+/Metrics {ExtendTextBox Gswidth} def
+/Lwidth {currentpoint stroke M 0 vshift R Metrics} def
+/Rwidth {currentpoint stroke M dup stringwidth pop neg vshift R Metrics} def
+/Cwidth {currentpoint stroke M dup stringwidth pop -2 div vshift R Metrics} def
+/GLwidth {currentpoint stroke M 0 vshift R {ExtendTextBox} forall} def
+/GRwidth {currentpoint stroke M dup Gwidth vshift R {ExtendTextBox} forall} def
+/GCwidth {currentpoint stroke M dup Gwidth 2 div vshift R {ExtendTextBox} forall} def
+/GLwidth2 {0 Gwidth AddGlyphWidth} def
+/GRwidth2 {Gwidth -1 mul 0 AddGlyphWidth} def
+/GCwidth2 {Gwidth 2 div dup -1 mul AddGlyphWidth} def
+/AddGlyphWidth { dup TBx2 gt {userdict /TBx2 3 -1 roll put} {pop} ifelse
+                 dup TBx1 lt {userdict /TBx1 3 -1 roll put} {pop} ifelse } def
+/MFshow {
+   { dup 5 get 3 ge
+     { 5 get 3 eq {gsave} {grestore} ifelse }
+     {dup dup 0 get findfont exch 1 get scalefont setfont
+     [ currentpoint ] exch dup 2 get 0 exch R dup 5 get 2 ne {dup dup 6
+     get exch 4 get {textshow} {Metrics pop 0 R} ifelse }if dup 5 get 0 eq
+     {dup 3 get {2 get neg 0 exch R pop} {pop aload pop M} ifelse} {dup 5
+     get 1 eq {dup 2 get exch dup 3 get exch 6 get Gswidth pop -2 div
+     dup 0 R} {dup 6 get Gswidth pop -2 div 0 R 6 get
+     textshow 2 index {aload pop M neg 3 -1 roll neg R pop pop} {pop pop pop
+     pop aload pop M} ifelse }ifelse }ifelse }
+     ifelse }
+   forall} def
+/Gswidth {dup type /stringtype eq {stringwidth} {pop (n) stringwidth} ifelse} def
+/MFwidth {0 exch { dup 5 get 3 ge { 5 get 3 eq { 0 } { pop } ifelse }
+ {dup 3 get{dup dup 0 get findfont exch 1 get scalefont setfont
+     6 get Gswidth pop add} {pop} ifelse} ifelse} forall} def
+/MLshow { currentpoint stroke M
+  0 exch R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/MRshow { currentpoint stroke M
+  exch dup MFwidth neg 3 -1 roll R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/MCshow { currentpoint stroke M
+  exch dup MFwidth -2 div 3 -1 roll R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/XYsave    { [( ) 1 2 true false 3 ()] } bind def
+/XYrestore { [( ) 1 2 true false 4 ()] } bind def
+/Arial reencodeISO def
+Level1 SuppressPDFMark or 
+{} {
+/SDict 10 dict def
+systemdict /pdfmark known not {
+  userdict /pdfmark systemdict /cleartomark get put
+} if
+SDict begin [
+  /Title (All-phase-DOS-COHP.eps)
+  /Subject (gnuplot plot)
+  /Creator (gnuplot 5.2 patchlevel 8)
+%  /Producer (gnuplot)
+%  /Keywords ()
+  /CreationDate (Mon Apr 15 10:50:50 2024)
+  /DOCINFO pdfmark
+end
+} ifelse
+%
+% Support for boxed text - Ethan A Merritt Sep 2016
+%
+/InitTextBox { userdict /TBy2 3 -1 roll put userdict /TBx2 3 -1 roll put
+           userdict /TBy1 3 -1 roll put userdict /TBx1 3 -1 roll put
+	   /Boxing true def } def
+/ExtendTextBox { dup type /stringtype eq
+    { Boxing { gsave dup false charpath pathbbox
+      dup TBy2 gt {userdict /TBy2 3 -1 roll put} {pop} ifelse
+      dup TBx2 gt {userdict /TBx2 3 -1 roll put} {pop} ifelse
+      dup TBy1 lt {userdict /TBy1 3 -1 roll put} {pop} ifelse
+      dup TBx1 lt {userdict /TBx1 3 -1 roll put} {pop} ifelse
+      grestore } if }
+    {} ifelse} def
+/PopTextBox { newpath TBx1 TBxmargin sub TBy1 TBymargin sub M
+               TBx1 TBxmargin sub TBy2 TBymargin add L
+	       TBx2 TBxmargin add TBy2 TBymargin add L
+	       TBx2 TBxmargin add TBy1 TBymargin sub L closepath } def
+/DrawTextBox { PopTextBox stroke /Boxing false def} def
+/FillTextBox { gsave PopTextBox fill grestore /Boxing false def} def
+0 0 0 0 InitTextBox
+/TBxmargin 20 def
+/TBymargin 20 def
+/Boxing false def
+/textshow { ExtendTextBox Gshow } def
+%
+end
+%%EndProlog
+%%Page: 1 1
+gnudict begin
+gsave
+doclip
+50 50 translate
+0.050 0.050 scale
+0 setgray
+newpath
+(Arial) findfont 140 scalefont setfont
+BackgroundColor 0 lt 3 1 roll 0 lt exch 0 lt or or not {BackgroundColor C 1.000 0 0 10080.00 7200.00 BoxColFill} if
+1.000 UL
+LTb
+LCb setrgbcolor
+504 4048 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 4048 M
+[ [(Arial) 140.0 0.0 true true 0 (-10)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+/vshift -46 def
+1.000 UL
+LTb
+LCb setrgbcolor
+504 4116 M
+47 0 V
+2640 0 R
+-47 0 V
+504 4185 M
+47 0 V
+2640 0 R
+-47 0 V
+504 4253 M
+47 0 V
+2640 0 R
+-47 0 V
+504 4322 M
+47 0 V
+2640 0 R
+-47 0 V
+504 4390 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 4390 M
+[ [(Arial) 140.0 0.0 true true 0 (-8)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 4459 M
+47 0 V
+2640 0 R
+-47 0 V
+504 4527 M
+47 0 V
+2640 0 R
+-47 0 V
+504 4596 M
+47 0 V
+2640 0 R
+-47 0 V
+504 4664 M
+47 0 V
+2640 0 R
+-47 0 V
+504 4733 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 4733 M
+[ [(Arial) 140.0 0.0 true true 0 (-6)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 4801 M
+47 0 V
+2640 0 R
+-47 0 V
+504 4870 M
+47 0 V
+2640 0 R
+-47 0 V
+504 4938 M
+47 0 V
+2640 0 R
+-47 0 V
+504 5007 M
+47 0 V
+2640 0 R
+-47 0 V
+504 5075 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 5075 M
+[ [(Arial) 140.0 0.0 true true 0 (-4)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 5143 M
+47 0 V
+2640 0 R
+-47 0 V
+504 5212 M
+47 0 V
+2640 0 R
+-47 0 V
+504 5280 M
+47 0 V
+2640 0 R
+-47 0 V
+504 5349 M
+47 0 V
+2640 0 R
+-47 0 V
+504 5417 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 5417 M
+[ [(Arial) 140.0 0.0 true true 0 (-2)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 5486 M
+47 0 V
+2640 0 R
+-47 0 V
+504 5554 M
+47 0 V
+2640 0 R
+-47 0 V
+504 5623 M
+47 0 V
+2640 0 R
+-47 0 V
+504 5691 M
+47 0 V
+2640 0 R
+-47 0 V
+504 5760 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 5760 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 5828 M
+47 0 V
+2640 0 R
+-47 0 V
+504 5897 M
+47 0 V
+2640 0 R
+-47 0 V
+504 5965 M
+47 0 V
+2640 0 R
+-47 0 V
+504 6034 M
+47 0 V
+2640 0 R
+-47 0 V
+504 6102 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 6102 M
+[ [(Arial) 140.0 0.0 true true 0 ( 2)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 6170 M
+47 0 V
+2640 0 R
+-47 0 V
+504 6239 M
+47 0 V
+2640 0 R
+-47 0 V
+504 6307 M
+47 0 V
+2640 0 R
+-47 0 V
+504 6376 M
+47 0 V
+2640 0 R
+-47 0 V
+504 6444 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 6444 M
+[ [(Arial) 140.0 0.0 true true 0 ( 4)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 6513 M
+47 0 V
+2640 0 R
+-47 0 V
+504 6581 M
+47 0 V
+2640 0 R
+-47 0 V
+504 6650 M
+47 0 V
+2640 0 R
+-47 0 V
+504 6718 M
+47 0 V
+2640 0 R
+-47 0 V
+504 6787 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 6787 M
+[ [(Arial) 140.0 0.0 true true 0 ( 6)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 6855 M
+47 0 V
+2640 0 R
+-47 0 V
+504 6924 M
+47 0 V
+2640 0 R
+-47 0 V
+504 6992 M
+47 0 V
+2640 0 R
+-47 0 V
+504 7061 M
+47 0 V
+2640 0 R
+-47 0 V
+504 7129 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 7129 M
+[ [(Arial) 140.0 0.0 true true 0 ( 8)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 4048 M
+0 94 V
+0 2987 R
+0 -94 V
+stroke
+504 3908 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+683 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+862 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+1041 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+1221 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+1400 4048 M
+0 94 V
+0 2987 R
+0 -94 V
+stroke
+1400 3908 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0.05)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+1579 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+1758 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+1937 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+2116 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+2295 4048 M
+0 94 V
+0 2987 R
+0 -94 V
+stroke
+2295 3908 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0.1)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+2474 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+2654 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+2833 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+3012 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+3191 4048 M
+0 94 V
+0 2987 R
+0 -94 V
+stroke
+3191 3908 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0.15)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+504 7129 N
+0 -3081 V
+2687 0 V
+0 3081 V
+-2687 0 V
+Z stroke
+1.000 UP
+LCb setrgbcolor
+2833 6616 M
+[ [(Arial Bold) 200.0 0.0 true true 0 (a\))]
+] -66.7 MLshow
+/Arial findfont 140 scalefont setfont
+2.500 UL
+LT1
+LCb setrgbcolor
+504 5760 M
+2687 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+LCb setrgbcolor
+119 5588 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(Arial) 180.0 0.0 true true 0 (Energy [eV])]
+] -60.0 MCshow
+grestore
+/Arial findfont 140 scalefont setfont
+LTb
+% Begin plot #1
+1.000 UL
+LTb
+0.57 0.57 0.57 C
+gsave 504 4048 N 0 6 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 7 V 0 8 V 0 7 V 1 7 V 1 8 V 2 7 V 5 7 V 8 8 V 15 7 V 24 7 V 37 7 V 52 8 V 69 7 V 87 7 V 102 8 V 114 7 V 118 7 V 117 7 V 107 8 V 93 7 V 69 7 V 43 8 V 12 7 V -21 7 V -53 8 V -80 7 V -99 7 V -112 7 V -115 8 V -113 7 V -104 7 V -92 8 V -78 7 V -62 7 V -48 7 V -35 8 V -24 7 V -16 7 V -11 8 V -6 7 V -3 7 V -2 7 V -1 8 V 1 7 V 2 7 V 5 8 V 10 7 V 21 7 V 37 7 V 61 8 V 95 7 V 134 7 V 175 8 V 210 7 V 228 7 V 229 7 V 206 8 V 166 7 V 121 7 V 78 8 V 47 7 V 31 7 V 23 8 V 22 7 V 19 7 V 12 7 V 4 8 V -8 7 V -14 7 V -20 8 V -21 7 V -22 7 V -26 7 V -36 8 V -51 7 V -73 7 V -96 8 V -117 7 V -127 7 V -123 7 V -101 8 V -62 7 V -12 7 V 40 8 V 84 7 V 112 7 V 122 7 V 112 8 V 94 7 V 71 7 V 51 8 V 43 7 V 44 7 V 51 8 V 61 7 V 68 7 V 64 7 V 49 8 V 27 7 V -3 7 V -34 8 V -62 7 V -83 7 V -96 7 V -96 8 V -88 7 V -70 7 V -47 8 V -24 7 V 0 7 V 20 8 V 33 7 V 43 7 V 44 7 V 45 8 V 42 7 V 38 7 V 39 8 V 44 7 V 55 7 V 69 7 V 83 8 V 89 7 V 83 7 V 64 8 V 37 7 V 10 7 V -11 7 V -20 8 V -17 7 V -10 7 V -1 8 V 2 7 V -1 7 V -7 7 V -14 8 V -19 7 V -16 7 V -6 8 V 9 7 V 27 7 V 44 7 V 51 8 V 50 7 V 40 7 V 26 8 V 13 7 V 4 7 V 3 7 V 2 8 V -1 7 V -10 7 V -30 8 V -52 7 V -77 7 V -98 7 V -116 8 V -136 7 V -159 7 V -185 8 V -213 7 V -233 7 V -242 8 V -232 7 V -207 7 V -170 7 V -128 8 V -90 7 V -58 7 V -34 8 V -18 7 V -10 7 V -4 7 V -2 8 V -1 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 8 V 0 7 V 504 5869 L 0 7 V 0 8 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 1 8 V 1 7 V 2 7 V 6 7 V 12 8 V 25 7 V 43 7 V 72 8 V 109 7 V 155 7 V 202 7 V 240 8 V 264 7 V 263 7 V 239 8 V 191 7 V 133 7 V 72 7 V 13 8 V -36 7 V -77 7 V -112 8 V -139 7 V -153 7 V -155 7 V -136 8 V -104 7 V -58 7 V -9 8 V 31 7 V 51 7 V 45 7 V 13 8 V -36 7 V -85 7 V -124 8 V -143 7 V -138 7 V -116 8 V -84 7 V -51 7 V -21 7 V 1 8 V 16 7 V 22 7 V 19 8 V 8 7 V -10 7 V -31 8 V -51 7 V -65 7 V -69 7 V -62 8 V -47 7 V -27 7 V -3 8 V 22 7 V 45 7 V 67 7 V 87 8 V 100 7 V 107 7 V 106 8 V 97 7 V 81 7 V 61 8 V 44 7 V 27 7 V 14 7 V 5 8 V -2 7 V -12 7 V -21 8 V -37 7 V -54 7 V -68 7 V -76 8 V -74 7 V -59 7 V -36 8 V -13 7 V 7 7 V 19 7 V 20 8 V 15 7 V 7 7 V 1 8 V -1 7 V 5 7 V 14 7 V 28 8 V 43 7 V 55 7 V 62 8 V 62 7 V 55 7 V 46 7 V 37 8 V 36 7 V 42 7 V 56 8 V 73 7 V 88 7 V 98 7 V 101 8 V 96 7 V 89 7 V 83 8 V 81 7 V 87 7 V 93 7 V 92 8 V 75 7 V 41 7 V -8 8 V -59 7 V -101 7 V -124 7 V -125 8 V -111 7 V -83 7 V -54 8 V -27 7 V -2 7 V 17 8 V 33 7 V 45 7 V 50 7 V 52 8 V 48 7 V 37 7 V 24 8 V 5 7 V -18 7 V -44 8 V -64 7 V -84 7 V -91 7 V -94 8 V -90 7 V -83 7 V -75 8 V -67 7 V -61 7 V -56 7 V -52 8 V -48 7 V -38 6 V -876 0 V 0 -3081 V 1 PolyFill
+% End plot #1
+% Begin plot #2
+3.000 UL
+LTb
+0.80 0.00 1.00 C
+504 4048 M
+0 6 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+1 8 V
+0 7 V
+0 7 V
+1 8 V
+0 7 V
+1 7 V
+0 7 V
+1 8 V
+0 7 V
+0 7 V
+1 8 V
+0 7 V
+0 7 V
+0 8 V
+-1 7 V
+0 7 V
+-1 7 V
+0 8 V
+-1 7 V
+0 7 V
+-1 8 V
+0 7 V
+0 7 V
+-1 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+1 7 V
+0 8 V
+1 7 V
+1 7 V
+2 8 V
+2 7 V
+2 7 V
+2 7 V
+2 8 V
+2 7 V
+1 7 V
+1 8 V
+0 7 V
+0 7 V
+1 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+-1 8 V
+0 7 V
+0 7 V
+0 7 V
+-1 8 V
+0 7 V
+-1 7 V
+-1 8 V
+-1 7 V
+-1 7 V
+-1 7 V
+-1 8 V
+0 7 V
+0 7 V
+2 8 V
+1 7 V
+2 7 V
+2 7 V
+2 8 V
+1 7 V
+1 7 V
+1 8 V
+0 7 V
+0 7 V
+1 8 V
+1 7 V
+1 7 V
+1 7 V
+0 8 V
+1 7 V
+0 7 V
+0 8 V
+0 7 V
+-1 7 V
+-1 7 V
+-1 8 V
+-1 7 V
+-1 7 V
+0 8 V
+0 7 V
+0 7 V
+1 8 V
+1 7 V
+1 7 V
+1 7 V
+1 8 V
+1 7 V
+2 7 V
+1 8 V
+2 7 V
+1 7 V
+3 7 V
+2 8 V
+2 7 V
+3 7 V
+1 8 V
+1 7 V
+0 7 V
+-1 7 V
+-1 8 V
+-2 7 V
+-1 7 V
+-1 8 V
+-1 7 V
+-1 7 V
+-1 7 V
+-1 8 V
+0 7 V
+-1 7 V
+0 8 V
+0 7 V
+1 7 V
+0 7 V
+1 8 V
+1 7 V
+1 7 V
+0 8 V
+-1 7 V
+-1 7 V
+-1 7 V
+-1 8 V
+-1 7 V
+-2 7 V
+-2 8 V
+-3 7 V
+-2 7 V
+-3 7 V
+-3 8 V
+-3 7 V
+-2 7 V
+-3 8 V
+-2 7 V
+-2 7 V
+-1 8 V
+-2 7 V
+-1 7 V
+-1 7 V
+-1 8 V
+0 7 V
+-1 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+stroke 504 5862 M
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+1 8 V
+0 7 V
+1 7 V
+1 7 V
+1 8 V
+1 7 V
+1 7 V
+1 8 V
+1 7 V
+1 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+-1 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+1 8 V
+1 7 V
+1 7 V
+1 7 V
+1 8 V
+0 7 V
+-1 7 V
+-2 8 V
+-2 7 V
+-1 7 V
+-2 8 V
+-1 7 V
+-1 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+1 7 V
+0 7 V
+-1 8 V
+0 7 V
+0 7 V
+-1 7 V
+0 8 V
+-1 7 V
+0 7 V
+0 8 V
+0 7 V
+1 7 V
+1 7 V
+0 8 V
+1 7 V
+1 7 V
+1 8 V
+1 7 V
+1 7 V
+1 8 V
+1 7 V
+1 7 V
+1 7 V
+0 8 V
+1 7 V
+0 7 V
+1 8 V
+0 7 V
+0 7 V
+1 7 V
+1 8 V
+1 7 V
+1 7 V
+2 8 V
+2 7 V
+2 7 V
+3 7 V
+3 8 V
+3 7 V
+5 7 V
+6 8 V
+10 7 V
+13 7 V
+19 7 V
+25 8 V
+31 7 V
+37 7 V
+39 8 V
+39 7 V
+37 7 V
+32 7 V
+29 8 V
+27 7 V
+29 7 V
+36 8 V
+43 7 V
+51 7 V
+57 7 V
+59 8 V
+59 7 V
+57 7 V
+56 8 V
+58 7 V
+62 7 V
+67 7 V
+65 8 V
+53 7 V
+30 7 V
+-1 8 V
+-35 7 V
+-62 7 V
+-76 7 V
+-76 8 V
+-64 7 V
+-45 7 V
+-25 8 V
+-5 7 V
+12 7 V
+25 8 V
+35 7 V
+43 7 V
+46 7 V
+46 8 V
+44 7 V
+39 7 V
+29 8 V
+16 7 V
+0 7 V
+-19 8 V
+-36 7 V
+-50 7 V
+-56 7 V
+-59 8 V
+-56 7 V
+-51 7 V
+-45 8 V
+-40 7 V
+-37 7 V
+-35 7 V
+-34 8 V
+-35 7 V
+-30 6 V
+% End plot #2
+% Begin plot #3
+stroke
+LTb
+0.00 1.00 1.00 C
+504 4048 M
+0 6 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+1 7 V
+0 8 V
+1 7 V
+2 7 V
+3 7 V
+3 8 V
+5 7 V
+7 7 V
+7 8 V
+8 7 V
+9 7 V
+8 7 V
+8 8 V
+6 7 V
+4 7 V
+1 8 V
+-1 7 V
+-3 7 V
+-6 8 V
+-7 7 V
+-7 7 V
+-8 7 V
+-8 8 V
+-7 7 V
+-6 7 V
+-6 8 V
+-4 7 V
+-3 7 V
+-2 7 V
+-2 8 V
+-1 7 V
+-1 7 V
+0 8 V
+-1 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+1 8 V
+1 7 V
+1 7 V
+4 7 V
+5 8 V
+8 7 V
+11 7 V
+16 8 V
+18 7 V
+20 7 V
+21 7 V
+19 8 V
+15 7 V
+12 7 V
+7 8 V
+5 7 V
+3 7 V
+2 8 V
+2 7 V
+1 7 V
+1 7 V
+1 8 V
+1 7 V
+2 7 V
+3 8 V
+3 7 V
+4 7 V
+1 7 V
+0 8 V
+-4 7 V
+-8 7 V
+-10 8 V
+-11 7 V
+-12 7 V
+-9 7 V
+-6 8 V
+-1 7 V
+5 7 V
+10 8 V
+12 7 V
+15 7 V
+14 7 V
+12 8 V
+9 7 V
+5 7 V
+1 8 V
+0 7 V
+-1 7 V
+-1 8 V
+1 7 V
+1 7 V
+0 7 V
+0 8 V
+-2 7 V
+-5 7 V
+-7 8 V
+-9 7 V
+-11 7 V
+-11 7 V
+-11 8 V
+-10 7 V
+-9 7 V
+-7 8 V
+-4 7 V
+-3 7 V
+-2 8 V
+-1 7 V
+0 7 V
+-1 7 V
+-1 8 V
+-1 7 V
+-2 7 V
+-2 8 V
+-2 7 V
+-1 7 V
+0 7 V
+2 8 V
+2 7 V
+3 7 V
+4 8 V
+2 7 V
+2 7 V
+2 7 V
+1 8 V
+1 7 V
+0 7 V
+1 8 V
+0 7 V
+-1 7 V
+-2 7 V
+-3 8 V
+-3 7 V
+-4 7 V
+-3 8 V
+-3 7 V
+-2 7 V
+-1 7 V
+-2 8 V
+-2 7 V
+-2 7 V
+-3 8 V
+-3 7 V
+-4 7 V
+-4 7 V
+-4 8 V
+-4 7 V
+-3 7 V
+-4 8 V
+-3 7 V
+-3 7 V
+-4 7 V
+-3 8 V
+-4 7 V
+-4 7 V
+-4 8 V
+-6 7 V
+-6 7 V
+-7 8 V
+-6 7 V
+-6 7 V
+-5 7 V
+-4 8 V
+-2 7 V
+-2 7 V
+-1 8 V
+-1 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+stroke 504 5862 M
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+1 7 V
+2 7 V
+5 7 V
+10 8 V
+19 7 V
+35 7 V
+57 8 V
+87 7 V
+124 7 V
+161 7 V
+192 8 V
+210 7 V
+209 7 V
+188 8 V
+151 7 V
+103 7 V
+53 7 V
+7 8 V
+-33 7 V
+-66 7 V
+-92 8 V
+-112 7 V
+-124 7 V
+-122 7 V
+-109 8 V
+-83 7 V
+-46 7 V
+-8 8 V
+23 7 V
+38 7 V
+33 7 V
+9 8 V
+-28 7 V
+-67 7 V
+-97 8 V
+-110 7 V
+-107 7 V
+-90 8 V
+-66 7 V
+-40 7 V
+-17 7 V
+0 8 V
+11 7 V
+15 7 V
+13 8 V
+6 7 V
+-8 7 V
+-23 8 V
+-37 7 V
+-47 7 V
+-51 7 V
+-46 8 V
+-35 7 V
+-20 7 V
+-3 8 V
+14 7 V
+31 7 V
+46 7 V
+59 8 V
+69 7 V
+74 7 V
+72 8 V
+66 7 V
+54 7 V
+41 8 V
+27 7 V
+17 7 V
+8 7 V
+3 8 V
+-1 7 V
+-7 7 V
+-14 8 V
+-25 7 V
+-38 7 V
+-49 7 V
+-56 8 V
+-54 7 V
+-44 7 V
+-28 8 V
+-10 7 V
+3 7 V
+10 7 V
+11 8 V
+4 7 V
+-4 7 V
+-12 8 V
+-19 7 V
+-21 7 V
+-22 7 V
+-20 8 V
+-17 7 V
+-14 7 V
+-10 8 V
+-8 7 V
+-5 7 V
+-5 7 V
+-3 8 V
+-1 7 V
+0 7 V
+2 8 V
+1 7 V
+1 7 V
+-2 7 V
+-5 8 V
+-7 7 V
+-9 7 V
+-9 8 V
+-9 7 V
+-8 7 V
+-5 7 V
+-3 8 V
+0 7 V
+2 7 V
+3 8 V
+4 7 V
+4 7 V
+4 7 V
+3 8 V
+1 7 V
+-1 7 V
+-3 8 V
+-6 7 V
+-8 7 V
+-10 8 V
+-12 7 V
+-11 7 V
+-10 7 V
+-9 8 V
+-8 7 V
+-6 7 V
+-6 8 V
+-6 7 V
+-6 7 V
+-6 8 V
+-7 7 V
+-7 7 V
+-6 7 V
+-5 8 V
+-5 7 V
+-4 7 V
+-3 8 V
+-2 7 V
+-1 7 V
+-1 7 V
+-1 8 V
+0 7 V
+0 6 V
+% End plot #3
+% Begin plot #4
+stroke
+LTb
+0.00 0.00 1.00 C
+504 4048 M
+0 6 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+1 7 V
+1 7 V
+1 8 V
+3 7 V
+5 7 V
+7 7 V
+11 8 V
+13 7 V
+17 7 V
+21 8 V
+22 7 V
+23 7 V
+24 7 V
+21 8 V
+19 7 V
+14 7 V
+9 8 V
+3 7 V
+-4 7 V
+-10 8 V
+-16 7 V
+-19 7 V
+-22 7 V
+-23 8 V
+-23 7 V
+-21 7 V
+-19 8 V
+-15 7 V
+-13 7 V
+-10 7 V
+-7 8 V
+-5 7 V
+-3 7 V
+-2 8 V
+-2 7 V
+0 7 V
+-1 7 V
+0 8 V
+0 7 V
+0 7 V
+1 8 V
+1 7 V
+2 7 V
+4 7 V
+6 8 V
+9 7 V
+14 7 V
+18 8 V
+21 7 V
+23 7 V
+23 7 V
+21 8 V
+17 7 V
+12 7 V
+7 8 V
+4 7 V
+3 7 V
+1 8 V
+1 7 V
+0 7 V
+0 7 V
+-3 8 V
+-3 7 V
+-6 7 V
+-6 8 V
+-7 7 V
+-6 7 V
+-6 7 V
+-6 8 V
+-6 7 V
+-7 7 V
+-8 8 V
+-11 7 V
+-12 7 V
+-14 7 V
+-13 8 V
+-13 7 V
+-11 7 V
+-9 8 V
+-7 7 V
+-5 7 V
+-3 7 V
+-1 8 V
+-1 7 V
+-1 7 V
+0 8 V
+0 7 V
+0 7 V
+1 8 V
+0 7 V
+0 7 V
+1 7 V
+0 8 V
+0 7 V
+0 7 V
+-1 8 V
+-1 7 V
+-1 7 V
+-1 7 V
+-2 8 V
+-1 7 V
+-1 7 V
+-1 8 V
+0 7 V
+0 7 V
+-1 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+-1 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+1 7 V
+0 8 V
+0 7 V
+-1 7 V
+0 7 V
+-1 8 V
+0 7 V
+0 7 V
+-1 8 V
+0 7 V
+1 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+-1 7 V
+0 7 V
+-1 7 V
+0 8 V
+-1 7 V
+0 7 V
+-1 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+1 7 V
+0 7 V
+0 8 V
+-1 7 V
+0 7 V
+-1 8 V
+0 7 V
+-1 7 V
+-2 8 V
+-1 7 V
+-1 7 V
+-1 7 V
+-1 8 V
+0 7 V
+-1 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+stroke 504 5862 M
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+1 7 V
+0 7 V
+1 8 V
+1 7 V
+2 7 V
+2 7 V
+2 8 V
+2 7 V
+2 7 V
+1 8 V
+1 7 V
+0 7 V
+0 7 V
+-1 8 V
+-2 7 V
+-1 7 V
+-2 8 V
+-1 7 V
+-2 7 V
+-1 7 V
+0 8 V
+-1 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+1 7 V
+0 8 V
+-1 7 V
+0 7 V
+0 8 V
+-1 7 V
+0 7 V
+-1 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+-1 7 V
+0 8 V
+0 7 V
+1 7 V
+1 8 V
+1 7 V
+2 7 V
+2 7 V
+3 8 V
+3 7 V
+4 7 V
+3 8 V
+2 7 V
+2 7 V
+1 8 V
+0 7 V
+-1 7 V
+-1 7 V
+-1 8 V
+-1 7 V
+-2 7 V
+-1 8 V
+-2 7 V
+-2 7 V
+-1 7 V
+-2 8 V
+-1 7 V
+-2 7 V
+-1 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+-1 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+1 7 V
+0 7 V
+1 7 V
+1 8 V
+1 7 V
+2 7 V
+1 8 V
+2 7 V
+2 7 V
+2 7 V
+2 8 V
+1 7 V
+1 7 V
+0 8 V
+0 7 V
+0 7 V
+-1 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+-1 7 V
+0 7 V
+0 8 V
+-1 7 V
+0 7 V
+0 8 V
+1 7 V
+1 7 V
+1 7 V
+0 8 V
+1 7 V
+1 7 V
+1 8 V
+0 7 V
+1 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+-1 7 V
+-1 7 V
+-2 8 V
+-2 7 V
+-2 7 V
+-2 7 V
+-1 8 V
+-1 7 V
+-1 6 V
+% End plot #4
+% Begin plot #5
+stroke
+LTb
+1.00 0.00 0.00 C
+504 4048 M
+0 6 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+1 8 V
+1 7 V
+2 7 V
+5 8 V
+7 7 V
+12 7 V
+18 7 V
+26 8 V
+35 7 V
+44 7 V
+51 8 V
+58 7 V
+60 7 V
+59 7 V
+56 8 V
+48 7 V
+37 7 V
+23 8 V
+7 7 V
+-9 7 V
+-26 8 V
+-40 7 V
+-50 7 V
+-56 7 V
+-59 8 V
+-58 7 V
+-54 7 V
+-48 8 V
+-40 7 V
+-33 7 V
+-25 7 V
+-18 8 V
+-13 7 V
+-8 7 V
+-6 8 V
+-3 7 V
+-2 7 V
+-1 7 V
+0 8 V
+0 7 V
+1 7 V
+2 8 V
+6 7 V
+11 7 V
+19 7 V
+32 8 V
+49 7 V
+70 7 V
+91 8 V
+110 7 V
+120 7 V
+120 7 V
+108 8 V
+88 7 V
+64 7 V
+42 8 V
+27 7 V
+17 7 V
+15 8 V
+14 7 V
+13 7 V
+9 7 V
+4 8 V
+-1 7 V
+-7 7 V
+-9 8 V
+-11 7 V
+-11 7 V
+-13 7 V
+-18 8 V
+-25 7 V
+-37 7 V
+-49 8 V
+-61 7 V
+-68 7 V
+-66 7 V
+-54 8 V
+-35 7 V
+-8 7 V
+18 8 V
+43 7 V
+57 7 V
+64 7 V
+60 8 V
+50 7 V
+40 7 V
+30 8 V
+26 7 V
+28 7 V
+33 8 V
+38 7 V
+43 7 V
+40 7 V
+33 8 V
+20 7 V
+3 7 V
+-15 8 V
+-30 7 V
+-43 7 V
+-50 7 V
+-51 8 V
+-47 7 V
+-36 7 V
+-23 8 V
+-9 7 V
+5 7 V
+16 8 V
+24 7 V
+28 7 V
+31 7 V
+31 8 V
+28 7 V
+28 7 V
+28 8 V
+31 7 V
+39 7 V
+49 7 V
+57 8 V
+61 7 V
+58 7 V
+45 8 V
+29 7 V
+11 7 V
+-2 7 V
+-8 8 V
+-6 7 V
+-1 7 V
+5 8 V
+7 7 V
+5 7 V
+1 7 V
+-4 8 V
+-6 7 V
+-4 7 V
+3 8 V
+13 7 V
+26 7 V
+36 7 V
+43 8 V
+41 7 V
+36 7 V
+25 8 V
+16 7 V
+12 7 V
+10 7 V
+9 8 V
+7 7 V
+-1 7 V
+-14 8 V
+-32 7 V
+-50 7 V
+-65 7 V
+-79 8 V
+-93 7 V
+-111 7 V
+-130 8 V
+-150 7 V
+-166 7 V
+-172 8 V
+-165 7 V
+-148 7 V
+-121 7 V
+-93 8 V
+-64 7 V
+-41 7 V
+-25 8 V
+-13 7 V
+-7 7 V
+-3 7 V
+-1 8 V
+-1 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+stroke 504 5862 M
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+1 7 V
+0 8 V
+2 7 V
+3 7 V
+4 8 V
+7 7 V
+11 7 V
+13 7 V
+17 8 V
+19 7 V
+21 7 V
+20 8 V
+18 7 V
+16 7 V
+13 7 V
+10 8 V
+5 7 V
+2 7 V
+-3 8 V
+-7 7 V
+-11 7 V
+-12 7 V
+-12 8 V
+-9 7 V
+-4 7 V
+2 8 V
+5 7 V
+9 7 V
+7 7 V
+4 8 V
+-3 7 V
+-9 7 V
+-14 8 V
+-17 7 V
+-17 7 V
+-14 8 V
+-10 7 V
+-5 7 V
+-2 7 V
+2 8 V
+4 7 V
+4 7 V
+4 8 V
+2 7 V
+-1 7 V
+-4 8 V
+-8 7 V
+-11 7 V
+-11 7 V
+-11 8 V
+-8 7 V
+-5 7 V
+-1 8 V
+2 7 V
+6 7 V
+10 7 V
+12 8 V
+15 7 V
+16 7 V
+16 8 V
+15 7 V
+14 7 V
+11 8 V
+9 7 V
+6 7 V
+5 7 V
+3 8 V
+2 7 V
+1 7 V
+-2 8 V
+-5 7 V
+-8 7 V
+-11 7 V
+-13 8 V
+-13 7 V
+-10 7 V
+-8 8 V
+-3 7 V
+0 7 V
+2 7 V
+3 8 V
+2 7 V
+1 7 V
+0 8 V
+0 7 V
+-1 7 V
+0 7 V
+1 8 V
+3 7 V
+3 7 V
+4 8 V
+3 7 V
+2 7 V
+2 7 V
+0 8 V
+1 7 V
+2 7 V
+4 8 V
+6 7 V
+9 7 V
+10 7 V
+11 8 V
+11 7 V
+9 7 V
+9 8 V
+8 7 V
+9 7 V
+8 7 V
+7 8 V
+6 7 V
+2 7 V
+-1 8 V
+-5 7 V
+-8 7 V
+-9 7 V
+-10 8 V
+-9 7 V
+-7 7 V
+-5 8 V
+-3 7 V
+-2 7 V
+-1 8 V
+1 7 V
+2 7 V
+2 7 V
+3 8 V
+3 7 V
+2 7 V
+2 8 V
+1 7 V
+-2 7 V
+-2 8 V
+-5 7 V
+-6 7 V
+-7 7 V
+-7 8 V
+-7 7 V
+-7 7 V
+-7 8 V
+-6 7 V
+-5 7 V
+-4 7 V
+-3 8 V
+-3 7 V
+-1 6 V
+% End plot #5
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+504 4048 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 4048 M
+[ [(Arial) 140.0 0.0 true true 0 (-10)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 4116 M
+47 0 V
+2640 0 R
+-47 0 V
+504 4185 M
+47 0 V
+2640 0 R
+-47 0 V
+504 4253 M
+47 0 V
+2640 0 R
+-47 0 V
+504 4322 M
+47 0 V
+2640 0 R
+-47 0 V
+504 4390 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 4390 M
+[ [(Arial) 140.0 0.0 true true 0 (-8)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 4459 M
+47 0 V
+2640 0 R
+-47 0 V
+504 4527 M
+47 0 V
+2640 0 R
+-47 0 V
+504 4596 M
+47 0 V
+2640 0 R
+-47 0 V
+504 4664 M
+47 0 V
+2640 0 R
+-47 0 V
+504 4733 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 4733 M
+[ [(Arial) 140.0 0.0 true true 0 (-6)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 4801 M
+47 0 V
+2640 0 R
+-47 0 V
+504 4870 M
+47 0 V
+2640 0 R
+-47 0 V
+504 4938 M
+47 0 V
+2640 0 R
+-47 0 V
+504 5007 M
+47 0 V
+2640 0 R
+-47 0 V
+504 5075 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 5075 M
+[ [(Arial) 140.0 0.0 true true 0 (-4)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 5143 M
+47 0 V
+2640 0 R
+-47 0 V
+504 5212 M
+47 0 V
+2640 0 R
+-47 0 V
+504 5280 M
+47 0 V
+2640 0 R
+-47 0 V
+504 5349 M
+47 0 V
+2640 0 R
+-47 0 V
+504 5417 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 5417 M
+[ [(Arial) 140.0 0.0 true true 0 (-2)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 5486 M
+47 0 V
+2640 0 R
+-47 0 V
+504 5554 M
+47 0 V
+2640 0 R
+-47 0 V
+504 5623 M
+47 0 V
+2640 0 R
+-47 0 V
+504 5691 M
+47 0 V
+2640 0 R
+-47 0 V
+504 5760 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 5760 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 5828 M
+47 0 V
+2640 0 R
+-47 0 V
+504 5897 M
+47 0 V
+2640 0 R
+-47 0 V
+504 5965 M
+47 0 V
+2640 0 R
+-47 0 V
+504 6034 M
+47 0 V
+2640 0 R
+-47 0 V
+504 6102 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 6102 M
+[ [(Arial) 140.0 0.0 true true 0 ( 2)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 6170 M
+47 0 V
+2640 0 R
+-47 0 V
+504 6239 M
+47 0 V
+2640 0 R
+-47 0 V
+504 6307 M
+47 0 V
+2640 0 R
+-47 0 V
+504 6376 M
+47 0 V
+2640 0 R
+-47 0 V
+504 6444 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 6444 M
+[ [(Arial) 140.0 0.0 true true 0 ( 4)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 6513 M
+47 0 V
+2640 0 R
+-47 0 V
+504 6581 M
+47 0 V
+2640 0 R
+-47 0 V
+504 6650 M
+47 0 V
+2640 0 R
+-47 0 V
+504 6718 M
+47 0 V
+2640 0 R
+-47 0 V
+504 6787 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 6787 M
+[ [(Arial) 140.0 0.0 true true 0 ( 6)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 6855 M
+47 0 V
+2640 0 R
+-47 0 V
+504 6924 M
+47 0 V
+2640 0 R
+-47 0 V
+504 6992 M
+47 0 V
+2640 0 R
+-47 0 V
+504 7061 M
+47 0 V
+2640 0 R
+-47 0 V
+504 7129 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 7129 M
+[ [(Arial) 140.0 0.0 true true 0 ( 8)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 4048 M
+0 94 V
+0 2987 R
+0 -94 V
+stroke
+504 3908 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+683 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+862 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+1041 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+1221 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+1400 4048 M
+0 94 V
+0 2987 R
+0 -94 V
+stroke
+1400 3908 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0.05)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+1579 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+1758 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+1937 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+2116 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+2295 4048 M
+0 94 V
+0 2987 R
+0 -94 V
+stroke
+2295 3908 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0.1)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+2474 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+2654 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+2833 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+3012 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+3191 4048 M
+0 94 V
+0 2987 R
+0 -94 V
+stroke
+3191 3908 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0.15)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+2.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+504 7129 N
+0 -3081 V
+2687 0 V
+0 3081 V
+-2687 0 V
+Z stroke
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 4048 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 4048 M
+[ [(Arial) 140.0 0.0 true true 0 (-10)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 4116 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 4390 M
+[ [(Arial) 140.0 0.0 true true 0 (-8)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 4459 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 4733 M
+[ [(Arial) 140.0 0.0 true true 0 (-6)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 4801 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 5075 M
+[ [(Arial) 140.0 0.0 true true 0 (-4)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 5143 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 5417 M
+[ [(Arial) 140.0 0.0 true true 0 (-2)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 5486 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 5760 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 5828 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 6102 M
+[ [(Arial) 140.0 0.0 true true 0 ( 2)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 6170 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 6444 M
+[ [(Arial) 140.0 0.0 true true 0 ( 4)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 6513 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 6787 M
+[ [(Arial) 140.0 0.0 true true 0 ( 6)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 6855 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 7129 M
+[ [(Arial) 140.0 0.0 true true 0 ( 8)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 4048 M
+0 94 V
+0 2987 R
+0 -94 V
+stroke
+3864 3908 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4043 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+4222 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+4401 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+4581 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+4760 4048 M
+0 94 V
+0 2987 R
+0 -94 V
+stroke
+4760 3908 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0.05)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4939 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+5118 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+5297 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+5476 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+5655 4048 M
+0 94 V
+0 2987 R
+0 -94 V
+stroke
+5655 3908 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0.1)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+5834 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+6014 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+6193 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+6372 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+6551 4048 M
+0 94 V
+0 2987 R
+0 -94 V
+stroke
+6551 3908 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0.15)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+3864 7129 N
+0 -3081 V
+2687 0 V
+0 3081 V
+-2687 0 V
+Z stroke
+1.000 UP
+LCb setrgbcolor
+6193 6616 M
+[ [(Arial Bold) 200.0 0.0 true true 0 (b\))]
+] -66.7 MLshow
+/Arial findfont 140 scalefont setfont
+2.500 UL
+LT1
+LCb setrgbcolor
+3864 5760 M
+2687 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+LCb setrgbcolor
+3479 5588 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(Arial) 180.0 0.0 true true 0 (Energy [eV])]
+] -60.0 MCshow
+grestore
+/Arial findfont 140 scalefont setfont
+LTb
+LCb setrgbcolor
+5207 3698 M
+[ [(Arial) 180.0 0.0 true true 0 (DOS [ states/eV/e)]
+[(Arial) 144.0 90.0 true true 0 (-)]
+[(Arial) 180.0 0.0 true true 0 ( ])]
+] -78.0 MCshow
+/Arial findfont 140 scalefont setfont
+LTb
+% Begin plot #1
+1.000 UL
+LTb
+0.57 0.57 0.57 C
+LCb setrgbcolor
+6110 4824 M
+[ [(Arial) 160.0 0.0 true true 0 (Total)]
+] -53.3 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+0.57 0.57 0.57 C
+1.000 6206 4784 159 80 BoxColFill
+6206 4784 N
+159 0 V
+0 80 V
+-159 0 V
+0 -80 V
+Z stroke
+1.000 UL
+LTb
+0.57 0.57 0.57 C
+gsave 3864 4048 N 0 5 V 0 8 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 7 V 0 8 V 0 7 V 0 8 V 0 7 V 0 7 V 0 7 V 0 8 V 0 7 V 0 8 V 0 7 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 7 V 0 8 V 0 7 V 0 8 V 0 7 V 0 7 V 1 7 V 1 8 V 2 7 V 5 7 V 8 8 V 15 7 V 25 7 V 37 8 V 53 7 V 71 7 V 87 8 V 101 7 V 111 7 V 114 8 V 110 7 V 102 7 V 85 8 V 65 7 V 39 7 V 8 8 V -22 7 V -50 7 V -75 8 V -90 7 V -100 7 V -103 8 V -101 7 V -95 7 V -88 8 V -77 7 V -66 7 V -52 7 V -41 8 V -29 7 V -20 8 V -13 7 V -8 7 V -4 7 V -1 8 V 3 7 V 8 7 V 16 8 V 31 7 V 51 7 V 79 8 V 113 7 V 149 7 V 182 8 V 204 7 V 211 7 V 200 8 V 171 7 V 136 7 V 96 8 V 64 7 V 39 7 V 25 8 V 19 7 V 17 7 V 16 8 V 14 7 V 10 7 V 4 8 V -3 7 V -9 7 V -16 7 V -25 8 V -35 7 V -48 7 V -61 8 V -79 7 V -94 7 V -106 8 V -107 7 V -96 7 V -70 8 V -30 7 V 16 7 V 63 8 V 99 7 V 117 7 V 116 8 V 96 7 V 68 7 V 37 8 V 17 7 V 7 7 V 11 8 V 24 7 V 38 7 V 50 8 V 52 7 V 46 7 V 30 8 V 9 7 V -14 7 V -37 7 V -54 8 V -68 7 V -73 8 V -71 7 V -63 7 V -47 7 V -27 8 V -7 7 V 12 7 V 26 8 V 36 7 V 41 7 V 38 8 V 32 7 V 23 7 V 12 8 V 3 7 V 0 7 V 5 8 V 20 7 V 38 7 V 59 8 V 75 7 V 84 7 V 82 8 V 70 7 V 54 7 V 37 8 V 24 7 V 12 7 V 4 8 V -8 7 V -20 7 V -35 8 V -45 7 V -51 7 V -47 7 V -35 8 V -15 7 V 12 7 V 40 8 V 64 7 V 80 7 V 88 8 V 82 7 V 71 7 V 54 8 V 39 7 V 24 7 V 10 8 V -1 7 V -16 7 V -32 8 V -52 7 V -70 7 V -94 8 V -123 7 V -156 7 V -193 8 V -230 7 V -258 7 V -269 8 V -261 7 V -235 7 V -196 7 V -152 8 V -109 7 V -72 8 V -45 7 V -25 7 V -13 7 V -7 8 V -3 7 V -1 7 V -1 8 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 8 V 3864 5877 L 0 7 V 0 7 V 0 8 V 0 7 V 0 8 V 0 7 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 8 V 0 7 V 0 7 V 0 8 V 0 7 V 1 7 V 2 7 V 3 8 V 8 7 V 14 8 V 24 7 V 40 7 V 63 7 V 92 8 V 126 7 V 164 7 V 200 8 V 227 7 V 241 7 V 235 8 V 211 7 V 168 7 V 118 8 V 61 7 V 4 7 V -49 8 V -96 7 V -135 7 V -159 8 V -168 7 V -154 7 V -125 8 V -80 7 V -30 7 V 18 8 V 49 7 V 61 7 V 45 8 V 7 7 V -42 7 V -92 8 V -126 7 V -143 7 V -138 7 V -118 8 V -89 7 V -59 8 V -31 7 V -8 7 V 8 7 V 18 8 V 25 7 V 25 7 V 21 8 V 9 7 V -8 7 V -30 8 V -49 7 V -63 7 V -68 8 V -63 7 V -50 7 V -33 8 V -12 7 V 9 7 V 31 8 V 53 7 V 75 7 V 93 8 V 107 7 V 112 7 V 105 8 V 90 7 V 67 7 V 44 8 V 22 7 V 6 7 V -4 7 V -6 8 V -7 7 V -8 7 V -13 8 V -22 7 V -40 7 V -57 8 V -73 7 V -79 7 V -76 8 V -59 7 V -34 7 V -5 8 V 23 7 V 44 7 V 54 8 V 50 7 V 36 7 V 14 8 V -6 7 V -22 7 V -22 8 V -11 7 V 14 7 V 44 8 V 71 7 V 88 7 V 92 8 V 82 7 V 64 7 V 47 7 V 38 8 V 40 7 V 52 8 V 69 7 V 85 7 V 91 7 V 86 8 V 71 7 V 52 7 V 39 8 V 37 7 V 48 7 V 65 8 V 82 7 V 83 7 V 65 8 V 33 7 V -9 7 V -52 8 V -80 7 V -96 7 V -99 8 V -88 7 V -76 7 V -60 8 V -48 7 V -33 7 V -20 8 V -8 7 V 3 7 V 10 8 V 13 7 V 12 7 V 10 8 V 5 7 V 0 7 V -9 7 V -23 8 V -37 7 V 0 0 V -1414 0 V 0 -3081 V 1 PolyFill
+% End plot #1
+% Begin plot #2
+3.000 UL
+LTb
+0.80 0.00 1.00 C
+LCb setrgbcolor
+6110 4664 M
+[ [(Arial) 160.0 0.0 true true 0 (Ca)]
+] -53.3 MRshow
+/Arial findfont 140 scalefont setfont
+3.000 UL
+LTb
+0.80 0.00 1.00 C
+6206 4664 M
+159 0 V
+3864 4048 M
+0 5 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+1 8 V
+0 7 V
+1 7 V
+0 8 V
+1 7 V
+0 7 V
+1 8 V
+1 7 V
+0 7 V
+1 8 V
+0 7 V
+1 7 V
+0 8 V
+0 7 V
+-1 7 V
+0 8 V
+-1 7 V
+0 7 V
+-1 8 V
+-1 7 V
+0 7 V
+-1 8 V
+-1 7 V
+0 7 V
+0 7 V
+-1 8 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+1 7 V
+0 7 V
+1 8 V
+2 7 V
+1 7 V
+3 8 V
+2 7 V
+3 7 V
+2 8 V
+3 7 V
+1 7 V
+2 8 V
+0 7 V
+1 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+-1 7 V
+0 8 V
+0 7 V
+-1 7 V
+-1 8 V
+-1 7 V
+-1 7 V
+-1 8 V
+-1 7 V
+-1 7 V
+-1 8 V
+0 7 V
+1 7 V
+1 8 V
+2 7 V
+2 7 V
+2 8 V
+1 7 V
+1 7 V
+1 8 V
+0 7 V
+0 7 V
+0 8 V
+1 7 V
+0 7 V
+1 8 V
+1 7 V
+1 7 V
+1 8 V
+1 7 V
+0 7 V
+0 7 V
+0 8 V
+-1 7 V
+-1 8 V
+0 7 V
+-1 7 V
+0 7 V
+-1 8 V
+1 7 V
+0 7 V
+1 8 V
+1 7 V
+1 7 V
+1 8 V
+1 7 V
+1 7 V
+1 8 V
+0 7 V
+1 7 V
+1 8 V
+1 7 V
+1 7 V
+2 8 V
+2 7 V
+3 7 V
+2 8 V
+2 7 V
+1 7 V
+0 8 V
+0 7 V
+-1 7 V
+-1 8 V
+-1 7 V
+-1 7 V
+-2 8 V
+-2 7 V
+-2 7 V
+-2 7 V
+-1 8 V
+-1 7 V
+-1 7 V
+1 8 V
+0 7 V
+2 7 V
+1 8 V
+1 7 V
+1 7 V
+1 8 V
+0 7 V
+-1 7 V
+-1 8 V
+-2 7 V
+-2 7 V
+-2 8 V
+-3 7 V
+-3 7 V
+-3 8 V
+-3 7 V
+-3 7 V
+-3 8 V
+-3 7 V
+-3 7 V
+-2 8 V
+-2 7 V
+-2 7 V
+-1 7 V
+-1 8 V
+-1 7 V
+0 8 V
+-1 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+stroke 3864 5855 M
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+1 7 V
+0 8 V
+1 7 V
+0 7 V
+1 8 V
+1 7 V
+2 7 V
+1 8 V
+1 7 V
+1 7 V
+1 8 V
+1 7 V
+0 7 V
+0 8 V
+0 7 V
+-1 7 V
+0 8 V
+-1 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+2 8 V
+1 7 V
+1 7 V
+1 8 V
+1 7 V
+-1 7 V
+-1 8 V
+-2 7 V
+-2 7 V
+-2 7 V
+-2 8 V
+-1 7 V
+-1 8 V
+0 7 V
+-1 7 V
+0 7 V
+1 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+-1 7 V
+0 8 V
+-1 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+1 7 V
+1 7 V
+1 8 V
+1 7 V
+1 7 V
+1 8 V
+1 7 V
+0 7 V
+1 8 V
+0 7 V
+1 7 V
+0 7 V
+1 8 V
+0 7 V
+0 7 V
+1 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+1 7 V
+1 8 V
+1 7 V
+3 7 V
+3 8 V
+3 7 V
+5 7 V
+5 8 V
+5 7 V
+4 7 V
+4 8 V
+5 7 V
+6 7 V
+9 8 V
+16 7 V
+24 7 V
+32 8 V
+40 7 V
+45 7 V
+46 8 V
+42 7 V
+37 7 V
+31 7 V
+28 8 V
+31 7 V
+36 8 V
+45 7 V
+52 7 V
+55 7 V
+53 8 V
+46 7 V
+38 7 V
+32 8 V
+32 7 V
+40 7 V
+49 8 V
+57 7 V
+56 7 V
+44 8 V
+24 7 V
+-2 7 V
+-27 8 V
+-45 7 V
+-54 7 V
+-55 8 V
+-50 7 V
+-43 7 V
+-35 8 V
+-25 7 V
+-18 7 V
+-9 8 V
+1 7 V
+8 7 V
+14 8 V
+17 7 V
+19 7 V
+19 8 V
+18 7 V
+13 7 V
+6 7 V
+-5 8 V
+-18 7 V
+% End plot #2
+% Begin plot #3
+stroke
+LTb
+0.00 1.00 1.00 C
+LCb setrgbcolor
+6110 4504 M
+[ [(Arial) 160.0 0.0 true true 0 (Ti)]
+] -53.3 MRshow
+/Arial findfont 140 scalefont setfont
+3.000 UL
+LTb
+0.00 1.00 1.00 C
+6206 4504 M
+159 0 V
+3864 4048 M
+0 5 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+1 7 V
+0 8 V
+1 7 V
+2 7 V
+3 8 V
+4 7 V
+5 7 V
+7 8 V
+8 7 V
+8 7 V
+9 8 V
+8 7 V
+7 7 V
+6 8 V
+4 7 V
+1 7 V
+-1 8 V
+-3 7 V
+-5 7 V
+-7 8 V
+-8 7 V
+-7 7 V
+-8 8 V
+-6 7 V
+-7 7 V
+-5 8 V
+-4 7 V
+-4 7 V
+-3 7 V
+-2 8 V
+-2 7 V
+-1 8 V
+0 7 V
+-1 7 V
+0 7 V
+0 8 V
+1 7 V
+0 7 V
+2 8 V
+3 7 V
+4 7 V
+7 8 V
+10 7 V
+14 7 V
+16 8 V
+18 7 V
+19 7 V
+18 8 V
+16 7 V
+12 7 V
+9 8 V
+7 7 V
+4 7 V
+3 8 V
+3 7 V
+3 7 V
+3 8 V
+4 7 V
+4 7 V
+4 8 V
+4 7 V
+4 7 V
+3 7 V
+2 8 V
+-1 7 V
+-4 7 V
+-7 8 V
+-9 7 V
+-12 7 V
+-12 8 V
+-11 7 V
+-9 7 V
+-4 8 V
+2 7 V
+6 7 V
+12 8 V
+15 7 V
+16 7 V
+15 8 V
+11 7 V
+6 7 V
+2 8 V
+-1 7 V
+-4 7 V
+-3 8 V
+-3 7 V
+-1 7 V
+0 8 V
+0 7 V
+0 7 V
+-2 8 V
+-3 7 V
+-5 7 V
+-7 7 V
+-9 8 V
+-9 7 V
+-10 8 V
+-9 7 V
+-8 7 V
+-7 7 V
+-4 8 V
+-3 7 V
+-1 7 V
+0 8 V
+0 7 V
+0 7 V
+-1 8 V
+-1 7 V
+-3 7 V
+-4 8 V
+-3 7 V
+-4 7 V
+-3 8 V
+-1 7 V
+0 7 V
+1 8 V
+3 7 V
+4 7 V
+3 8 V
+3 7 V
+3 7 V
+2 8 V
+1 7 V
+1 7 V
+0 8 V
+-1 7 V
+-2 7 V
+-3 8 V
+-3 7 V
+-4 7 V
+-4 7 V
+-3 8 V
+-2 7 V
+-1 7 V
+0 8 V
+0 7 V
+1 7 V
+1 8 V
+0 7 V
+-1 7 V
+-2 8 V
+-3 7 V
+-2 7 V
+-3 8 V
+-3 7 V
+-3 7 V
+-2 8 V
+-3 7 V
+-2 7 V
+-3 8 V
+-4 7 V
+-4 7 V
+-6 8 V
+-8 7 V
+-9 7 V
+-9 8 V
+-9 7 V
+-8 7 V
+-7 7 V
+-4 8 V
+-4 7 V
+-2 8 V
+-2 7 V
+0 7 V
+-1 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+stroke 3864 5855 M
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+1 7 V
+1 7 V
+3 8 V
+6 7 V
+11 8 V
+20 7 V
+32 7 V
+50 7 V
+74 8 V
+102 7 V
+131 7 V
+160 8 V
+181 7 V
+192 7 V
+186 8 V
+165 7 V
+132 7 V
+90 8 V
+44 7 V
+-2 7 V
+-44 8 V
+-80 7 V
+-110 7 V
+-128 8 V
+-132 7 V
+-123 7 V
+-98 8 V
+-64 7 V
+-25 7 V
+12 8 V
+37 7 V
+44 7 V
+33 8 V
+3 7 V
+-34 7 V
+-71 8 V
+-98 7 V
+-110 7 V
+-106 7 V
+-90 8 V
+-69 7 V
+-45 8 V
+-24 7 V
+-7 7 V
+5 7 V
+13 8 V
+17 7 V
+19 7 V
+14 8 V
+7 7 V
+-7 7 V
+-22 8 V
+-35 7 V
+-46 7 V
+-50 8 V
+-45 7 V
+-37 7 V
+-24 8 V
+-10 7 V
+5 7 V
+21 8 V
+35 7 V
+51 7 V
+64 8 V
+73 7 V
+77 7 V
+73 8 V
+62 7 V
+46 7 V
+30 8 V
+15 7 V
+2 7 V
+-3 7 V
+-6 8 V
+-5 7 V
+-6 7 V
+-9 8 V
+-16 7 V
+-28 7 V
+-41 8 V
+-53 7 V
+-59 7 V
+-57 8 V
+-45 7 V
+-29 7 V
+-7 8 V
+12 7 V
+27 7 V
+34 8 V
+31 7 V
+20 7 V
+5 8 V
+-12 7 V
+-24 7 V
+-32 8 V
+-32 7 V
+-26 7 V
+-17 8 V
+-7 7 V
+-2 7 V
+2 8 V
+2 7 V
+0 7 V
+-4 7 V
+-5 8 V
+-6 7 V
+-6 8 V
+-5 7 V
+-4 7 V
+-5 7 V
+-5 8 V
+-6 7 V
+-7 7 V
+-9 8 V
+-8 7 V
+-6 7 V
+-4 8 V
+-1 7 V
+2 7 V
+3 8 V
+4 7 V
+3 7 V
+2 8 V
+2 7 V
+1 7 V
+1 8 V
+1 7 V
+0 7 V
+-1 8 V
+-4 7 V
+-5 7 V
+-8 8 V
+-8 7 V
+-10 7 V
+-9 8 V
+-9 7 V
+-8 7 V
+-8 8 V
+-7 7 V
+-7 7 V
+-7 7 V
+-7 8 V
+-7 7 V
+% End plot #3
+% Begin plot #4
+stroke
+LTb
+0.00 0.00 1.00 C
+LCb setrgbcolor
+6110 4344 M
+[ [(Arial) 160.0 0.0 true true 0 (Si)]
+] -53.3 MRshow
+/Arial findfont 140 scalefont setfont
+3.000 UL
+LTb
+0.00 0.00 1.00 C
+6206 4344 M
+159 0 V
+3864 4048 M
+0 5 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+1 7 V
+1 7 V
+1 8 V
+3 7 V
+5 7 V
+7 8 V
+11 7 V
+13 7 V
+17 8 V
+20 7 V
+21 7 V
+22 8 V
+22 7 V
+19 7 V
+17 8 V
+13 7 V
+8 7 V
+2 8 V
+-4 7 V
+-9 7 V
+-14 8 V
+-18 7 V
+-19 7 V
+-20 8 V
+-20 7 V
+-19 7 V
+-17 8 V
+-15 7 V
+-13 7 V
+-11 7 V
+-8 8 V
+-6 7 V
+-4 8 V
+-2 7 V
+-2 7 V
+-1 7 V
+0 8 V
+0 7 V
+1 7 V
+1 8 V
+3 7 V
+5 7 V
+8 8 V
+11 7 V
+15 7 V
+19 8 V
+20 7 V
+21 7 V
+21 8 V
+17 7 V
+13 7 V
+9 8 V
+6 7 V
+3 7 V
+0 8 V
+1 7 V
+-1 7 V
+-1 8 V
+-1 7 V
+-3 7 V
+-3 8 V
+-4 7 V
+-5 7 V
+-5 7 V
+-6 8 V
+-6 7 V
+-6 7 V
+-6 8 V
+-7 7 V
+-8 7 V
+-9 8 V
+-10 7 V
+-11 7 V
+-11 8 V
+-9 7 V
+-8 7 V
+-6 8 V
+-5 7 V
+-3 7 V
+-2 8 V
+-1 7 V
+-2 7 V
+-1 8 V
+-1 7 V
+-2 7 V
+-1 8 V
+-1 7 V
+0 7 V
+0 8 V
+-1 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+-1 7 V
+-1 8 V
+-1 7 V
+-2 8 V
+-1 7 V
+-1 7 V
+-1 7 V
+-1 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+-1 7 V
+0 7 V
+-1 8 V
+-1 7 V
+-1 7 V
+0 8 V
+-1 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+1 8 V
+0 7 V
+0 7 V
+0 8 V
+-1 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+-1 7 V
+0 7 V
+0 7 V
+-1 8 V
+0 7 V
+-1 7 V
+0 8 V
+0 7 V
+-1 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+1 7 V
+0 8 V
+0 7 V
+0 7 V
+1 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+-1 7 V
+-1 8 V
+-1 7 V
+-2 7 V
+-1 8 V
+-2 7 V
+-1 7 V
+-1 7 V
+-1 8 V
+-1 7 V
+0 8 V
+-1 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+stroke 3864 5855 M
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+1 7 V
+0 7 V
+1 7 V
+1 8 V
+1 7 V
+2 7 V
+2 8 V
+2 7 V
+2 7 V
+1 8 V
+1 7 V
+1 7 V
+0 8 V
+-1 7 V
+-1 7 V
+-1 8 V
+-1 7 V
+-2 7 V
+-1 8 V
+-1 7 V
+-2 7 V
+0 8 V
+-1 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+-1 7 V
+0 7 V
+0 7 V
+-1 8 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+-1 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+1 7 V
+2 8 V
+2 7 V
+2 7 V
+3 8 V
+4 7 V
+3 7 V
+3 8 V
+2 7 V
+2 7 V
+0 8 V
+0 7 V
+-1 7 V
+-1 7 V
+-2 8 V
+-1 7 V
+-2 7 V
+-1 8 V
+-1 7 V
+-2 7 V
+-1 8 V
+-2 7 V
+-1 7 V
+-2 8 V
+-1 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+1 8 V
+0 7 V
+1 7 V
+0 8 V
+0 7 V
+-1 7 V
+0 8 V
+0 7 V
+-1 7 V
+0 8 V
+1 7 V
+1 7 V
+0 8 V
+1 7 V
+1 7 V
+1 7 V
+0 8 V
+1 7 V
+1 8 V
+2 7 V
+2 7 V
+1 7 V
+2 8 V
+1 7 V
+1 7 V
+1 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+-1 7 V
+0 8 V
+0 7 V
+-1 7 V
+-1 8 V
+0 7 V
+0 7 V
+-1 8 V
+1 7 V
+0 7 V
+1 8 V
+1 7 V
+1 7 V
+1 8 V
+1 7 V
+1 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+1 7 V
+% End plot #4
+% Begin plot #5
+stroke
+LTb
+1.00 0.00 0.00 C
+LCb setrgbcolor
+6110 4184 M
+[ [(Arial) 160.0 0.0 true true 0 (O)]
+] -53.3 MRshow
+/Arial findfont 140 scalefont setfont
+3.000 UL
+LTb
+1.00 0.00 0.00 C
+6206 4184 M
+159 0 V
+3864 4048 M
+0 5 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+1 8 V
+1 7 V
+2 7 V
+5 8 V
+7 7 V
+12 7 V
+19 8 V
+27 7 V
+36 7 V
+44 8 V
+52 7 V
+56 7 V
+59 8 V
+57 7 V
+53 7 V
+45 8 V
+34 7 V
+22 7 V
+5 8 V
+-10 7 V
+-25 7 V
+-37 8 V
+-46 7 V
+-51 7 V
+-53 8 V
+-52 7 V
+-50 7 V
+-45 8 V
+-41 7 V
+-35 7 V
+-28 7 V
+-21 8 V
+-16 7 V
+-11 8 V
+-7 7 V
+-4 7 V
+-2 7 V
+0 8 V
+1 7 V
+4 7 V
+9 8 V
+15 7 V
+26 7 V
+41 8 V
+58 7 V
+77 7 V
+95 8 V
+106 7 V
+110 7 V
+104 8 V
+90 7 V
+72 7 V
+51 8 V
+34 7 V
+22 7 V
+15 8 V
+12 7 V
+11 7 V
+11 8 V
+9 7 V
+8 7 V
+4 8 V
+0 7 V
+-3 7 V
+-7 7 V
+-12 8 V
+-17 7 V
+-24 7 V
+-31 8 V
+-40 7 V
+-48 7 V
+-55 8 V
+-55 7 V
+-51 7 V
+-37 8 V
+-16 7 V
+9 7 V
+34 8 V
+53 7 V
+63 7 V
+63 8 V
+52 7 V
+38 7 V
+22 8 V
+11 7 V
+7 7 V
+9 8 V
+16 7 V
+26 7 V
+31 8 V
+34 7 V
+29 7 V
+21 8 V
+10 7 V
+-5 7 V
+-16 7 V
+-28 8 V
+-35 7 V
+-38 8 V
+-38 7 V
+-32 7 V
+-23 7 V
+-12 8 V
+0 7 V
+11 7 V
+20 8 V
+25 7 V
+28 7 V
+27 8 V
+23 7 V
+17 7 V
+11 8 V
+6 7 V
+4 7 V
+8 8 V
+16 7 V
+29 7 V
+42 8 V
+52 7 V
+58 7 V
+56 8 V
+49 7 V
+40 7 V
+28 8 V
+20 7 V
+14 7 V
+7 8 V
+0 7 V
+-8 7 V
+-16 8 V
+-24 7 V
+-28 7 V
+-25 7 V
+-17 8 V
+-4 7 V
+15 7 V
+33 8 V
+49 7 V
+62 7 V
+66 8 V
+63 7 V
+56 7 V
+45 8 V
+33 7 V
+24 7 V
+15 8 V
+6 7 V
+-4 7 V
+-16 8 V
+-30 7 V
+-44 7 V
+-61 8 V
+-82 7 V
+-107 7 V
+-135 8 V
+-163 7 V
+-183 7 V
+-193 8 V
+-188 7 V
+-170 7 V
+-142 7 V
+-110 8 V
+-79 7 V
+-53 8 V
+-32 7 V
+-19 7 V
+-10 7 V
+-4 8 V
+-3 7 V
+0 7 V
+-1 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+stroke 3864 5855 M
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 7 V
+0 7 V
+0 7 V
+0 8 V
+1 7 V
+0 8 V
+2 7 V
+2 7 V
+4 7 V
+6 8 V
+8 7 V
+10 7 V
+14 8 V
+16 7 V
+19 7 V
+19 8 V
+20 7 V
+18 7 V
+16 8 V
+13 7 V
+9 7 V
+4 8 V
+-1 7 V
+-6 7 V
+-11 8 V
+-13 7 V
+-14 7 V
+-11 8 V
+-6 7 V
+-1 7 V
+4 8 V
+9 7 V
+10 7 V
+8 8 V
+4 7 V
+-3 7 V
+-10 8 V
+-16 7 V
+-17 7 V
+-18 7 V
+-15 8 V
+-11 7 V
+-8 8 V
+-3 7 V
+0 7 V
+2 7 V
+4 8 V
+5 7 V
+5 7 V
+4 8 V
+2 7 V
+-1 7 V
+-4 8 V
+-8 7 V
+-11 7 V
+-11 8 V
+-11 7 V
+-9 7 V
+-5 8 V
+-3 7 V
+0 7 V
+4 8 V
+8 7 V
+10 7 V
+13 8 V
+16 7 V
+16 7 V
+16 8 V
+14 7 V
+11 7 V
+8 8 V
+6 7 V
+3 7 V
+2 7 V
+2 8 V
+1 7 V
+2 7 V
+0 8 V
+-2 7 V
+-5 7 V
+-9 8 V
+-12 7 V
+-13 7 V
+-13 8 V
+-11 7 V
+-7 7 V
+-2 8 V
+3 7 V
+6 7 V
+7 8 V
+8 7 V
+5 7 V
+2 8 V
+-2 7 V
+-4 7 V
+-5 8 V
+-3 7 V
+-1 7 V
+2 8 V
+6 7 V
+8 7 V
+8 8 V
+6 7 V
+5 7 V
+3 7 V
+2 8 V
+3 7 V
+5 8 V
+6 7 V
+9 7 V
+9 7 V
+9 8 V
+7 7 V
+6 7 V
+4 8 V
+4 7 V
+4 7 V
+7 8 V
+7 7 V
+8 7 V
+6 8 V
+3 7 V
+-2 7 V
+-5 8 V
+-7 7 V
+-9 7 V
+-9 8 V
+-8 7 V
+-7 7 V
+-5 8 V
+-4 7 V
+-2 7 V
+-2 8 V
+0 7 V
+0 7 V
+1 8 V
+0 7 V
+1 7 V
+0 8 V
+1 7 V
+-1 7 V
+0 7 V
+-1 8 V
+-2 7 V
+% End plot #5
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 4048 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 4048 M
+[ [(Arial) 140.0 0.0 true true 0 (-10)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 4116 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 4390 M
+[ [(Arial) 140.0 0.0 true true 0 (-8)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 4459 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 4733 M
+[ [(Arial) 140.0 0.0 true true 0 (-6)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 4801 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 5075 M
+[ [(Arial) 140.0 0.0 true true 0 (-4)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 5143 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 5417 M
+[ [(Arial) 140.0 0.0 true true 0 (-2)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 5486 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 5760 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 5828 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 6102 M
+[ [(Arial) 140.0 0.0 true true 0 ( 2)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 6170 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 6444 M
+[ [(Arial) 140.0 0.0 true true 0 ( 4)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 6513 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 6787 M
+[ [(Arial) 140.0 0.0 true true 0 ( 6)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 6855 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 7129 M
+[ [(Arial) 140.0 0.0 true true 0 ( 8)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 4048 M
+0 94 V
+0 2987 R
+0 -94 V
+stroke
+3864 3908 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4043 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+4222 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+4401 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+4581 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+4760 4048 M
+0 94 V
+0 2987 R
+0 -94 V
+stroke
+4760 3908 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0.05)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4939 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+5118 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+5297 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+5476 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+5655 4048 M
+0 94 V
+0 2987 R
+0 -94 V
+stroke
+5655 3908 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0.1)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+5834 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+6014 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+6193 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+6372 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+6551 4048 M
+0 94 V
+0 2987 R
+0 -94 V
+stroke
+6551 3908 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0.15)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+2.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+3864 7129 N
+0 -3081 V
+2687 0 V
+0 3081 V
+-2687 0 V
+Z stroke
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 4048 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 4048 M
+[ [(Arial) 140.0 0.0 true true 0 (-10)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 4116 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 4390 M
+[ [(Arial) 140.0 0.0 true true 0 (-8)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 4459 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 4733 M
+[ [(Arial) 140.0 0.0 true true 0 (-6)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 4801 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 5075 M
+[ [(Arial) 140.0 0.0 true true 0 (-4)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 5143 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 5417 M
+[ [(Arial) 140.0 0.0 true true 0 (-2)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 5486 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 5760 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 5828 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 6102 M
+[ [(Arial) 140.0 0.0 true true 0 ( 2)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 6170 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 6444 M
+[ [(Arial) 140.0 0.0 true true 0 ( 4)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 6513 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 6787 M
+[ [(Arial) 140.0 0.0 true true 0 ( 6)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 6855 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 7129 M
+[ [(Arial) 140.0 0.0 true true 0 ( 8)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 4048 M
+0 94 V
+0 2987 R
+0 -94 V
+stroke
+7224 3908 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7403 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+7582 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+7761 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+7941 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+8120 4048 M
+0 94 V
+0 2987 R
+0 -94 V
+stroke
+8120 3908 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0.05)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+8299 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+8478 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+8657 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+8836 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+9015 4048 M
+0 94 V
+0 2987 R
+0 -94 V
+stroke
+9015 3908 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0.1)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+9194 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+9374 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+9553 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+9732 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+9911 4048 M
+0 94 V
+0 2987 R
+0 -94 V
+stroke
+9911 3908 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0.15)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+7224 7129 N
+0 -3081 V
+2687 0 V
+0 3081 V
+-2687 0 V
+Z stroke
+1.000 UP
+LCb setrgbcolor
+9553 6616 M
+[ [(Arial Bold) 200.0 0.0 true true 0 (c\))]
+] -66.7 MLshow
+/Arial findfont 140 scalefont setfont
+2.500 UL
+LT1
+LCb setrgbcolor
+7224 5760 M
+2687 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+LCb setrgbcolor
+6839 5588 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(Arial) 180.0 0.0 true true 0 (Energy [eV])]
+] -60.0 MCshow
+grestore
+/Arial findfont 140 scalefont setfont
+LTb
+% Begin plot #1
+1.000 UL
+LTb
+0.57 0.57 0.57 C
+gsave 7224 4048 N 0 2 V 0 7 V 0 8 V 0 7 V 0 8 V 1 7 V 2 8 V 5 7 V 9 8 V 18 7 V 31 8 V 50 7 V 70 8 V 90 7 V 104 8 V 105 7 V 92 8 V 64 7 V 29 8 V -7 7 V -36 8 V -54 7 V -59 8 V -55 7 V -47 8 V -37 7 V -28 8 V -21 7 V -15 8 V -12 7 V -10 8 V -8 7 V -8 8 V -6 7 V -5 8 V -5 7 V -4 8 V -5 7 V -5 8 V -6 7 V -5 8 V -5 7 V -5 8 V -5 7 V -6 8 V -6 7 V -6 8 V -4 7 V -3 8 V -1 7 V 0 8 V 3 7 V 6 8 V 8 7 V 12 8 V 13 7 V 15 8 V 14 7 V 15 8 V 17 7 V 18 8 V 24 7 V 30 8 V 38 7 V 48 8 V 57 7 V 67 8 V 75 7 V 81 8 V 80 7 V 76 8 V 65 7 V 52 8 V 39 7 V 29 8 V 19 7 V 8 8 V 0 7 V -8 8 V -11 7 V -8 8 V 4 7 V 20 8 V 38 7 V 53 8 V 64 7 V 69 8 V 72 7 V 73 8 V 71 7 V 66 8 V 56 7 V 40 8 V 17 7 V -9 8 V -35 7 V -55 8 V -70 7 V -73 8 V -67 7 V -55 8 V -36 7 V -18 8 V -2 7 V 7 8 V 9 7 V 4 8 V -5 7 V -19 8 V -32 7 V -44 8 V -49 7 V -49 8 V -40 7 V -23 8 V -2 7 V 20 8 V 40 7 V 52 8 V 56 7 V 51 8 V 40 7 V 29 8 V 21 7 V 17 8 V 17 7 V 22 8 V 25 7 V 25 8 V 22 7 V 13 8 V 4 7 V -6 8 V -14 7 V -17 8 V -20 7 V -20 8 V -18 7 V -13 8 V -4 7 V 8 8 V 23 7 V 37 8 V 49 7 V 57 8 V 58 7 V 49 8 V 34 7 V 10 8 V -17 7 V -44 8 V -66 7 V -80 8 V -81 7 V -71 8 V -53 7 V -32 8 V -13 7 V 2 8 V 12 7 V 16 8 V 19 7 V 21 8 V 24 7 V 29 8 V 38 7 V 51 8 V 62 7 V 76 8 V 84 7 V 86 8 V 80 7 V 65 8 V 46 7 V 23 8 V 6 7 V -5 8 V -7 7 V 1 8 V 14 7 V 28 8 V 40 7 V 47 8 V 42 7 V 28 8 V 7 7 V -21 8 V -49 7 V -70 8 V -80 7 V -80 8 V -71 7 V -63 8 V -60 7 V -66 8 V -81 7 V -98 8 V -111 7 V -119 8 V -117 7 V -112 8 V -102 7 V -95 8 V -90 7 V -88 8 V -88 7 V -87 8 V -85 7 V -80 8 V -71 7 V -61 8 V -49 7 V -37 8 V -27 7 V -17 8 V -11 7 V -6 8 V -3 7 V -2 8 V -1 7 V 0 8 V 0 7 V 0 8 V 0 7 V 0 8 V 0 7 V 0 8 V 0 7 V 0 8 V 0 7 V 0 8 V 0 7 V 0 8 V 0 7 V 0 8 V 0 7 V 0 8 V 0 7 V 0 8 V 0 7 V 0 8 V 0 7 V 0 8 V 0 7 V 0 8 V 0 7 V 0 8 V 0 7 V 0 8 V 7224 5917 L 0 8 V 1 7 V 1 8 V 2 7 V 5 8 V 10 7 V 17 8 V 28 7 V 41 8 V 54 7 V 65 8 V 69 7 V 66 8 V 54 7 V 38 8 V 22 7 V 8 8 V 3 7 V 4 8 V 13 7 V 25 8 V 39 7 V 49 8 V 57 7 V 63 8 V 72 7 V 85 8 V 104 7 V 127 8 V 146 7 V 158 8 V 153 7 V 128 8 V 81 7 V 16 8 V -62 7 V -146 8 V -216 7 V -260 8 V -272 7 V -249 8 V -204 7 V -144 8 V -84 7 V -27 8 V 26 7 V 76 8 V 124 7 V 168 8 V 208 7 V 234 8 V 243 7 V 230 8 V 199 7 V 147 8 V 85 7 V 16 8 V -50 7 V -109 8 V -152 7 V -179 8 V -187 7 V -181 8 V -162 7 V -135 8 V -107 7 V -77 8 V -52 7 V -30 8 V -16 7 V -7 8 V -6 7 V -6 8 V -10 7 V -7 8 V 3 7 V 22 8 V 50 7 V 79 8 V 101 7 V 110 8 V 100 7 V 78 8 V 44 7 V 7 7 V -29 8 V -57 8 V -79 7 V -90 8 V -90 7 V -80 7 V -68 8 V -54 8 V -44 7 V -39 8 V -40 7 V -43 8 V -46 7 V -48 8 V -46 7 V -42 7 V -36 8 V -29 8 V -21 7 V -14 8 V -8 7 V -2 7 V 5 8 V 14 8 V 29 7 V 47 8 V 75 7 V 105 7 V 138 8 V 165 8 V 180 7 V 178 7 V 154 8 V 113 8 V 60 7 V 3 8 V -47 7 V -86 7 V -105 8 V -107 8 V -86 7 V -49 8 V 1 7 V 56 7 V 106 8 V 143 8 V 163 7 V 162 7 V 146 8 V 116 8 V 84 7 V 48 8 V 23 7 V 2 7 V -9 8 V -20 8 V -31 7 V -47 8 V -67 7 V -87 7 V -103 8 V -106 8 V -95 7 V -71 7 V -31 8 V 13 7 V 58 8 V 95 8 V 120 7 V 132 7 V 128 8 V 113 8 V 83 7 V 40 7 V -14 8 V -78 7 V -87 5 V -1784 0 V 0 -3081 V 1 PolyFill
+% End plot #1
+% Begin plot #2
+3.000 UL
+LTb
+0.80 0.00 1.00 C
+7224 4048 M
+0 2 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+1 8 V
+0 7 V
+0 8 V
+0 7 V
+1 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+-1 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+1 7 V
+0 8 V
+0 7 V
+1 8 V
+0 7 V
+0 8 V
+1 7 V
+1 8 V
+0 7 V
+1 8 V
+1 7 V
+1 8 V
+1 7 V
+1 8 V
+1 7 V
+0 8 V
+1 7 V
+0 8 V
+0 7 V
+1 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+1 7 V
+1 8 V
+1 7 V
+1 8 V
+2 7 V
+1 8 V
+2 7 V
+1 8 V
+2 7 V
+1 8 V
+1 7 V
+1 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+-1 7 V
+0 8 V
+-1 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+-1 8 V
+-1 7 V
+-1 8 V
+-1 7 V
+-1 8 V
+-1 7 V
+-1 8 V
+1 7 V
+0 8 V
+1 7 V
+1 8 V
+1 7 V
+0 8 V
+1 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+1 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+-1 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+-1 7 V
+1 8 V
+0 7 V
+0 8 V
+1 7 V
+1 8 V
+1 7 V
+0 8 V
+1 7 V
+0 8 V
+0 7 V
+0 8 V
+-1 7 V
+-1 8 V
+0 7 V
+-1 8 V
+0 7 V
+1 8 V
+0 7 V
+1 8 V
+0 7 V
+1 8 V
+1 7 V
+0 8 V
+1 7 V
+0 8 V
+1 7 V
+1 8 V
+2 7 V
+1 8 V
+2 7 V
+2 8 V
+2 7 V
+1 8 V
+0 7 V
+1 8 V
+-1 7 V
+-1 8 V
+0 7 V
+-1 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+1 7 V
+0 8 V
+0 7 V
+-1 8 V
+-1 7 V
+0 8 V
+-1 7 V
+-1 8 V
+0 7 V
+0 8 V
+-1 7 V
+-1 8 V
+-2 7 V
+-2 8 V
+-3 7 V
+-3 8 V
+-3 7 V
+-3 8 V
+-2 7 V
+-2 8 V
+-2 7 V
+-2 8 V
+-2 7 V
+-2 8 V
+-2 7 V
+-1 8 V
+-1 7 V
+-1 8 V
+-1 7 V
+0 8 V
+-1 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+stroke 7224 5910 M
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+1 8 V
+0 7 V
+1 8 V
+1 7 V
+2 8 V
+1 7 V
+1 8 V
+1 7 V
+1 8 V
+0 7 V
+0 8 V
+0 7 V
+-1 8 V
+0 7 V
+1 8 V
+0 7 V
+1 8 V
+0 7 V
+1 8 V
+1 7 V
+2 8 V
+1 7 V
+3 8 V
+3 7 V
+2 8 V
+3 7 V
+2 8 V
+1 7 V
+0 8 V
+-2 7 V
+-3 8 V
+-4 7 V
+-4 8 V
+-4 7 V
+-4 8 V
+-3 7 V
+-2 8 V
+-1 7 V
+0 8 V
+0 7 V
+1 8 V
+1 7 V
+2 8 V
+2 7 V
+3 8 V
+2 7 V
+2 8 V
+1 7 V
+1 8 V
+0 7 V
+0 8 V
+-1 7 V
+-1 8 V
+-1 7 V
+-1 8 V
+-2 7 V
+-1 8 V
+-1 7 V
+0 8 V
+-1 7 V
+-1 8 V
+0 7 V
+0 8 V
+0 7 V
+-1 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+2 7 V
+2 8 V
+2 7 V
+2 8 V
+2 7 V
+1 8 V
+1 7 V
+0 7 V
+-1 8 V
+-1 8 V
+-1 7 V
+-2 8 V
+-1 7 V
+-1 7 V
+-1 8 V
+-1 8 V
+0 7 V
+-1 8 V
+-1 7 V
+-1 8 V
+-1 7 V
+-1 8 V
+-1 7 V
+-1 7 V
+-1 8 V
+0 8 V
+0 7 V
+0 8 V
+1 7 V
+2 7 V
+4 8 V
+9 8 V
+17 7 V
+28 8 V
+44 7 V
+63 7 V
+82 8 V
+98 8 V
+109 7 V
+107 7 V
+94 8 V
+70 8 V
+38 7 V
+4 8 V
+-27 7 V
+-51 7 V
+-62 8 V
+-62 8 V
+-49 7 V
+-25 8 V
+7 7 V
+42 7 V
+74 8 V
+97 8 V
+109 7 V
+107 7 V
+96 8 V
+76 8 V
+52 7 V
+31 8 V
+13 7 V
+2 7 V
+-5 8 V
+-10 8 V
+-16 7 V
+-27 8 V
+-39 7 V
+-54 7 V
+-64 8 V
+-67 8 V
+-60 7 V
+-43 7 V
+-17 8 V
+15 7 V
+45 8 V
+72 8 V
+88 7 V
+96 7 V
+94 8 V
+82 8 V
+61 7 V
+30 7 V
+-9 8 V
+-56 7 V
+-64 5 V
+% End plot #2
+% Begin plot #3
+stroke
+LTb
+0.00 1.00 1.00 C
+7224 4048 M
+0 2 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+1 8 V
+1 7 V
+2 8 V
+4 7 V
+4 8 V
+6 7 V
+7 8 V
+7 7 V
+7 8 V
+4 7 V
+2 8 V
+-1 7 V
+-2 8 V
+-4 7 V
+-4 8 V
+-4 7 V
+-3 8 V
+-3 7 V
+-2 8 V
+-2 7 V
+-1 8 V
+-1 7 V
+0 8 V
+-1 7 V
+0 8 V
+-1 7 V
+0 8 V
+0 7 V
+-1 8 V
+0 7 V
+0 8 V
+-1 7 V
+0 8 V
+0 7 V
+-1 8 V
+0 7 V
+0 8 V
+-1 7 V
+0 8 V
+0 7 V
+-1 8 V
+0 7 V
+1 8 V
+0 7 V
+0 8 V
+1 7 V
+1 8 V
+2 7 V
+1 8 V
+1 7 V
+2 8 V
+2 7 V
+2 8 V
+2 7 V
+4 8 V
+4 7 V
+5 8 V
+6 7 V
+7 8 V
+9 7 V
+9 8 V
+9 7 V
+9 8 V
+7 7 V
+6 8 V
+5 7 V
+3 8 V
+2 7 V
+0 8 V
+0 7 V
+-2 8 V
+-2 7 V
+-2 8 V
+-1 7 V
+0 8 V
+3 7 V
+4 8 V
+5 7 V
+6 8 V
+6 7 V
+7 8 V
+6 7 V
+6 8 V
+6 7 V
+3 8 V
+2 7 V
+-1 8 V
+-3 7 V
+-4 8 V
+-6 7 V
+-6 8 V
+-5 7 V
+-4 8 V
+-1 7 V
+1 8 V
+2 7 V
+3 8 V
+4 7 V
+2 8 V
+2 7 V
+0 8 V
+-1 7 V
+-3 8 V
+-5 7 V
+-5 8 V
+-5 7 V
+-4 8 V
+-1 7 V
+0 8 V
+3 7 V
+4 8 V
+6 7 V
+5 8 V
+5 7 V
+3 8 V
+3 7 V
+2 8 V
+1 7 V
+2 8 V
+3 7 V
+2 8 V
+1 7 V
+1 8 V
+-1 7 V
+-2 8 V
+-3 7 V
+-4 8 V
+-4 7 V
+-4 8 V
+-4 7 V
+-3 8 V
+-2 7 V
+-1 8 V
+1 7 V
+3 8 V
+4 7 V
+4 8 V
+4 7 V
+3 8 V
+2 7 V
+0 8 V
+-3 7 V
+-5 8 V
+-7 7 V
+-9 8 V
+-9 7 V
+-8 8 V
+-8 7 V
+-6 8 V
+-4 7 V
+-2 8 V
+-2 7 V
+0 8 V
+0 7 V
+0 8 V
+1 7 V
+1 8 V
+1 7 V
+2 8 V
+2 7 V
+3 8 V
+2 7 V
+3 8 V
+1 7 V
+1 8 V
+-1 7 V
+-2 8 V
+-3 7 V
+-3 8 V
+-3 7 V
+-3 8 V
+-1 7 V
+-2 8 V
+0 7 V
+-1 8 V
+-1 7 V
+-1 8 V
+-2 7 V
+-4 8 V
+-4 7 V
+-5 8 V
+-6 7 V
+-5 8 V
+-5 7 V
+-3 8 V
+-4 7 V
+-3 8 V
+-3 7 V
+-4 8 V
+-4 7 V
+-4 8 V
+-4 7 V
+-3 8 V
+-4 7 V
+-3 8 V
+-2 7 V
+-2 8 V
+-2 7 V
+-2 8 V
+-2 7 V
+-1 8 V
+-1 7 V
+-1 8 V
+-1 7 V
+0 8 V
+0 7 V
+-1 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+stroke 7224 5910 M
+0 7 V
+0 8 V
+0 7 V
+1 8 V
+2 7 V
+3 8 V
+7 7 V
+13 8 V
+20 7 V
+30 8 V
+39 7 V
+47 8 V
+50 7 V
+48 8 V
+40 7 V
+28 8 V
+16 7 V
+7 8 V
+3 7 V
+4 8 V
+12 7 V
+22 8 V
+32 7 V
+39 8 V
+46 7 V
+50 8 V
+54 7 V
+63 8 V
+75 7 V
+91 8 V
+104 7 V
+111 8 V
+108 7 V
+89 8 V
+56 7 V
+9 8 V
+-49 7 V
+-107 8 V
+-158 7 V
+-190 8 V
+-198 7 V
+-182 8 V
+-148 7 V
+-104 8 V
+-61 7 V
+-19 8 V
+20 7 V
+55 8 V
+91 7 V
+124 8 V
+151 7 V
+170 8 V
+176 7 V
+168 8 V
+144 7 V
+108 8 V
+61 7 V
+11 8 V
+-38 7 V
+-80 8 V
+-113 7 V
+-133 8 V
+-140 7 V
+-134 8 V
+-120 7 V
+-100 8 V
+-79 7 V
+-58 8 V
+-39 7 V
+-23 8 V
+-12 7 V
+-6 8 V
+-4 7 V
+-4 8 V
+-6 7 V
+-5 8 V
+2 7 V
+16 8 V
+35 7 V
+54 8 V
+70 7 V
+76 8 V
+70 7 V
+54 8 V
+31 7 V
+5 7 V
+-19 8 V
+-40 8 V
+-55 7 V
+-63 8 V
+-63 7 V
+-57 7 V
+-48 8 V
+-38 8 V
+-30 7 V
+-28 8 V
+-27 7 V
+-28 8 V
+-31 7 V
+-32 8 V
+-31 7 V
+-29 7 V
+-24 8 V
+-19 8 V
+-15 7 V
+-9 8 V
+-7 7 V
+-4 7 V
+-1 8 V
+0 8 V
+1 7 V
+2 8 V
+4 7 V
+6 7 V
+7 8 V
+8 8 V
+9 7 V
+9 7 V
+7 8 V
+5 8 V
+3 7 V
+0 8 V
+-2 7 V
+-5 7 V
+-5 8 V
+-6 8 V
+-5 7 V
+-4 8 V
+-2 7 V
+0 7 V
+2 8 V
+3 8 V
+4 7 V
+4 7 V
+3 8 V
+3 8 V
+2 7 V
+1 8 V
+0 7 V
+0 7 V
+-1 8 V
+-1 8 V
+-2 7 V
+-3 8 V
+-3 7 V
+-4 7 V
+-3 8 V
+-4 8 V
+-4 7 V
+-3 7 V
+-2 8 V
+-2 7 V
+0 8 V
+0 8 V
+1 7 V
+1 7 V
+1 8 V
+1 8 V
+1 7 V
+0 7 V
+-1 8 V
+-2 7 V
+-2 5 V
+% End plot #3
+% Begin plot #4
+stroke
+LTb
+0.00 0.00 1.00 C
+7224 4048 M
+0 2 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+1 8 V
+1 7 V
+2 8 V
+4 7 V
+6 8 V
+11 7 V
+15 8 V
+19 7 V
+22 8 V
+22 7 V
+20 8 V
+13 7 V
+6 8 V
+-2 7 V
+-8 8 V
+-12 7 V
+-13 8 V
+-12 7 V
+-10 8 V
+-8 7 V
+-6 8 V
+-5 7 V
+-4 8 V
+-3 7 V
+-2 8 V
+-2 7 V
+-2 8 V
+-1 7 V
+-2 8 V
+-1 7 V
+-1 8 V
+-2 7 V
+-1 8 V
+-2 7 V
+-1 8 V
+-1 7 V
+-1 8 V
+-2 7 V
+-1 8 V
+-1 7 V
+-2 8 V
+-1 7 V
+-1 8 V
+0 7 V
+-1 8 V
+0 7 V
+1 8 V
+0 7 V
+1 8 V
+1 7 V
+2 8 V
+1 7 V
+0 8 V
+1 7 V
+1 8 V
+1 7 V
+2 8 V
+2 7 V
+4 8 V
+5 7 V
+5 8 V
+7 7 V
+7 8 V
+7 7 V
+6 8 V
+6 7 V
+4 8 V
+3 7 V
+2 8 V
+0 7 V
+0 8 V
+-1 7 V
+-2 8 V
+-2 7 V
+-3 8 V
+-2 7 V
+-2 8 V
+-1 7 V
+1 8 V
+2 7 V
+2 8 V
+3 7 V
+3 8 V
+4 7 V
+3 8 V
+2 7 V
+0 8 V
+-2 7 V
+-4 8 V
+-7 7 V
+-8 8 V
+-9 7 V
+-9 8 V
+-8 7 V
+-8 8 V
+-6 7 V
+-4 8 V
+-3 7 V
+-2 8 V
+-1 7 V
+-1 8 V
+-1 7 V
+-1 8 V
+-2 7 V
+-2 8 V
+-2 7 V
+-2 8 V
+-2 7 V
+-2 8 V
+-1 7 V
+-1 8 V
+0 7 V
+0 8 V
+0 7 V
+1 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+-1 8 V
+0 7 V
+0 8 V
+0 7 V
+-1 8 V
+0 7 V
+0 8 V
+-1 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+-1 7 V
+0 8 V
+-1 7 V
+-1 8 V
+-1 7 V
+-1 8 V
+0 7 V
+-1 8 V
+0 7 V
+0 8 V
+0 7 V
+1 8 V
+0 7 V
+1 8 V
+0 7 V
+0 8 V
+1 7 V
+0 8 V
+0 7 V
+0 8 V
+1 7 V
+0 8 V
+1 7 V
+0 8 V
+1 7 V
+0 8 V
+0 7 V
+0 8 V
+-1 7 V
+0 8 V
+0 7 V
+-1 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+-1 8 V
+0 7 V
+-1 8 V
+-1 7 V
+-1 8 V
+-1 7 V
+-1 8 V
+-1 7 V
+-1 8 V
+0 7 V
+-1 8 V
+-1 7 V
+0 8 V
+-1 7 V
+0 8 V
+-1 7 V
+0 8 V
+-1 7 V
+0 8 V
+0 7 V
+-1 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+-1 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+stroke 7224 5910 M
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+1 8 V
+0 7 V
+1 8 V
+1 7 V
+2 8 V
+1 7 V
+1 8 V
+1 7 V
+1 8 V
+0 7 V
+0 8 V
+-1 7 V
+0 8 V
+-1 7 V
+0 8 V
+0 7 V
+0 8 V
+-1 7 V
+0 8 V
+0 7 V
+0 8 V
+1 7 V
+0 8 V
+1 7 V
+1 8 V
+2 7 V
+1 8 V
+1 7 V
+0 8 V
+0 7 V
+-1 8 V
+-1 7 V
+-2 8 V
+-3 7 V
+-1 8 V
+-2 7 V
+-1 8 V
+-1 7 V
+0 8 V
+1 7 V
+1 8 V
+1 7 V
+2 8 V
+3 7 V
+3 8 V
+3 7 V
+3 8 V
+3 7 V
+1 8 V
+1 7 V
+0 8 V
+0 7 V
+-2 8 V
+-1 7 V
+-2 8 V
+-1 7 V
+-2 8 V
+-2 7 V
+-1 8 V
+-1 7 V
+-1 8 V
+-1 7 V
+-1 8 V
+0 7 V
+-1 8 V
+0 7 V
+-1 8 V
+0 7 V
+0 8 V
+1 7 V
+2 8 V
+2 7 V
+4 8 V
+3 7 V
+4 8 V
+3 7 V
+1 8 V
+1 7 V
+-1 7 V
+-1 8 V
+-2 8 V
+-3 7 V
+-3 8 V
+-2 7 V
+-2 7 V
+-2 8 V
+-2 8 V
+-1 7 V
+-1 8 V
+-1 7 V
+-1 8 V
+-1 7 V
+-1 8 V
+-1 7 V
+-1 7 V
+0 8 V
+0 8 V
+-1 7 V
+0 8 V
+0 7 V
+0 7 V
+0 8 V
+0 8 V
+1 7 V
+1 8 V
+0 7 V
+2 7 V
+1 8 V
+1 8 V
+2 7 V
+1 7 V
+1 8 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+-1 7 V
+0 8 V
+-1 8 V
+0 7 V
+0 8 V
+0 7 V
+1 7 V
+2 8 V
+1 8 V
+2 7 V
+2 7 V
+1 8 V
+1 8 V
+0 7 V
+0 8 V
+-1 7 V
+-1 7 V
+-1 8 V
+-1 8 V
+-1 7 V
+-1 8 V
+-1 7 V
+-1 7 V
+-1 8 V
+0 8 V
+-1 7 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+1 8 V
+1 7 V
+1 7 V
+1 8 V
+1 8 V
+1 7 V
+0 7 V
+1 8 V
+0 7 V
+0 5 V
+% End plot #4
+% Begin plot #5
+stroke
+LTb
+1.00 0.00 0.00 C
+7224 4048 M
+0 2 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+1 7 V
+1 8 V
+2 7 V
+4 8 V
+9 7 V
+15 8 V
+24 7 V
+34 8 V
+44 7 V
+50 8 V
+51 7 V
+45 8 V
+31 7 V
+15 8 V
+-4 7 V
+-17 8 V
+-26 7 V
+-28 8 V
+-27 7 V
+-23 8 V
+-17 7 V
+-14 8 V
+-10 7 V
+-7 8 V
+-6 7 V
+-4 8 V
+-4 7 V
+-4 8 V
+-2 7 V
+-3 8 V
+-2 7 V
+-2 8 V
+-2 7 V
+-3 8 V
+-2 7 V
+-2 8 V
+-3 7 V
+-2 8 V
+-2 7 V
+-3 8 V
+-3 7 V
+-2 8 V
+-2 7 V
+-2 8 V
+0 7 V
+1 8 V
+1 7 V
+3 8 V
+5 7 V
+6 8 V
+7 7 V
+7 8 V
+8 7 V
+8 8 V
+8 7 V
+9 8 V
+12 7 V
+15 8 V
+20 7 V
+25 8 V
+29 7 V
+35 8 V
+39 7 V
+42 8 V
+42 7 V
+40 8 V
+35 7 V
+28 8 V
+22 7 V
+16 8 V
+10 7 V
+6 8 V
+1 7 V
+-3 8 V
+-5 7 V
+-4 8 V
+2 7 V
+11 8 V
+20 7 V
+28 8 V
+34 7 V
+37 8 V
+39 7 V
+40 8 V
+39 7 V
+37 8 V
+31 7 V
+23 8 V
+10 7 V
+-5 8 V
+-18 7 V
+-29 8 V
+-37 7 V
+-40 8 V
+-36 7 V
+-30 8 V
+-19 7 V
+-9 8 V
+0 7 V
+5 8 V
+6 7 V
+4 8 V
+-1 7 V
+-8 8 V
+-16 7 V
+-22 8 V
+-25 7 V
+-25 8 V
+-20 7 V
+-10 8 V
+2 7 V
+15 8 V
+26 7 V
+32 8 V
+35 7 V
+32 8 V
+26 7 V
+20 8 V
+15 7 V
+12 8 V
+13 7 V
+16 8 V
+17 7 V
+17 8 V
+15 7 V
+11 8 V
+5 7 V
+-1 8 V
+-5 7 V
+-8 8 V
+-9 7 V
+-10 8 V
+-8 7 V
+-5 8 V
+0 7 V
+8 8 V
+18 7 V
+26 8 V
+35 7 V
+39 8 V
+39 7 V
+35 8 V
+24 7 V
+10 8 V
+-7 7 V
+-26 8 V
+-41 7 V
+-49 8 V
+-51 7 V
+-44 8 V
+-33 7 V
+-20 8 V
+-6 7 V
+3 8 V
+9 7 V
+13 8 V
+15 7 V
+16 8 V
+18 7 V
+22 8 V
+28 7 V
+37 8 V
+46 7 V
+55 8 V
+61 7 V
+63 8 V
+59 7 V
+50 8 V
+36 7 V
+22 8 V
+10 7 V
+2 8 V
+2 7 V
+6 8 V
+16 7 V
+26 8 V
+35 7 V
+39 8 V
+36 7 V
+27 8 V
+11 7 V
+-9 8 V
+-29 7 V
+-45 8 V
+-52 7 V
+-53 8 V
+-47 7 V
+-42 8 V
+-40 7 V
+-46 8 V
+-56 7 V
+-69 8 V
+-80 7 V
+-85 8 V
+-84 7 V
+-80 8 V
+-74 7 V
+-68 8 V
+-66 7 V
+-65 8 V
+-65 7 V
+-66 8 V
+-64 7 V
+-60 8 V
+-55 7 V
+-47 8 V
+-37 7 V
+-29 8 V
+-21 7 V
+-13 8 V
+-9 7 V
+-5 8 V
+-2 7 V
+-1 8 V
+-1 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+stroke 7224 5910 M
+0 7 V
+0 8 V
+0 7 V
+0 8 V
+0 7 V
+1 8 V
+1 7 V
+1 8 V
+3 7 V
+3 8 V
+5 7 V
+6 8 V
+6 7 V
+6 8 V
+5 7 V
+4 8 V
+3 7 V
+1 8 V
+1 7 V
+0 8 V
+1 7 V
+2 8 V
+3 7 V
+4 8 V
+5 7 V
+6 8 V
+9 7 V
+11 8 V
+16 7 V
+19 8 V
+23 7 V
+24 8 V
+25 7 V
+22 8 V
+17 7 V
+7 8 V
+-4 7 V
+-16 8 V
+-27 7 V
+-35 8 V
+-37 7 V
+-35 8 V
+-29 7 V
+-21 8 V
+-12 7 V
+-4 8 V
+3 7 V
+11 8 V
+17 7 V
+25 8 V
+32 7 V
+35 8 V
+39 7 V
+37 8 V
+32 7 V
+25 8 V
+16 7 V
+5 8 V
+-6 7 V
+-14 8 V
+-23 7 V
+-26 8 V
+-29 7 V
+-28 8 V
+-25 7 V
+-21 8 V
+-16 7 V
+-12 8 V
+-7 7 V
+-3 8 V
+-2 7 V
+1 8 V
+0 7 V
+-1 8 V
+-1 7 V
+-2 8 V
+-1 7 V
+2 8 V
+6 7 V
+11 8 V
+15 7 V
+18 8 V
+16 7 V
+14 8 V
+8 7 V
+3 7 V
+-3 8 V
+-8 8 V
+-12 7 V
+-14 8 V
+-14 7 V
+-13 7 V
+-11 8 V
+-8 8 V
+-7 7 V
+-7 8 V
+-7 7 V
+-8 8 V
+-9 7 V
+-9 8 V
+-9 7 V
+-9 7 V
+-8 8 V
+-6 8 V
+-4 7 V
+-3 8 V
+-2 7 V
+-1 7 V
+-1 8 V
+1 8 V
+2 7 V
+2 8 V
+5 7 V
+6 7 V
+9 8 V
+10 8 V
+12 7 V
+11 7 V
+10 8 V
+8 8 V
+4 7 V
+1 8 V
+-3 7 V
+-5 7 V
+-6 8 V
+-6 8 V
+-6 7 V
+-3 8 V
+0 7 V
+3 7 V
+7 8 V
+10 8 V
+12 7 V
+13 7 V
+13 8 V
+12 8 V
+10 7 V
+8 8 V
+6 7 V
+5 7 V
+3 8 V
+2 8 V
+0 7 V
+-1 8 V
+-5 7 V
+-7 7 V
+-8 8 V
+-9 8 V
+-8 7 V
+-5 7 V
+-2 8 V
+2 7 V
+6 8 V
+10 8 V
+13 7 V
+14 7 V
+15 8 V
+14 8 V
+11 7 V
+8 7 V
+3 8 V
+-3 7 V
+-7 5 V
+% End plot #5
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 4048 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 4048 M
+[ [(Arial) 140.0 0.0 true true 0 (-10)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 4116 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 4390 M
+[ [(Arial) 140.0 0.0 true true 0 (-8)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 4459 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 4733 M
+[ [(Arial) 140.0 0.0 true true 0 (-6)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 4801 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 5075 M
+[ [(Arial) 140.0 0.0 true true 0 (-4)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 5143 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 5417 M
+[ [(Arial) 140.0 0.0 true true 0 (-2)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 5486 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 5760 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 5828 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 6102 M
+[ [(Arial) 140.0 0.0 true true 0 ( 2)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 6170 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 6444 M
+[ [(Arial) 140.0 0.0 true true 0 ( 4)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 6513 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 6787 M
+[ [(Arial) 140.0 0.0 true true 0 ( 6)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 6855 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 69 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 7129 M
+[ [(Arial) 140.0 0.0 true true 0 ( 8)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 4048 M
+0 94 V
+0 2987 R
+0 -94 V
+stroke
+7224 3908 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7403 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+7582 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+7761 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+7941 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+8120 4048 M
+0 94 V
+0 2987 R
+0 -94 V
+stroke
+8120 3908 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0.05)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+8299 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+8478 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+8657 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+8836 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+9015 4048 M
+0 94 V
+0 2987 R
+0 -94 V
+stroke
+9015 3908 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0.1)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+9194 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+9374 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+9553 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+9732 4048 M
+0 47 V
+0 3034 R
+0 -47 V
+9911 4048 M
+0 94 V
+0 2987 R
+0 -94 V
+stroke
+9911 3908 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0.15)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+2.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+7224 7129 N
+0 -3081 V
+2687 0 V
+0 3081 V
+-2687 0 V
+Z stroke
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+504 448 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 448 M
+[ [(Arial) 140.0 0.0 true true 0 (-10)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 516 M
+47 0 V
+2640 0 R
+-47 0 V
+504 583 M
+47 0 V
+2640 0 R
+-47 0 V
+504 651 M
+47 0 V
+2640 0 R
+-47 0 V
+504 718 M
+47 0 V
+2640 0 R
+-47 0 V
+504 786 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 786 M
+[ [(Arial) 140.0 0.0 true true 0 (-8)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 853 M
+47 0 V
+2640 0 R
+-47 0 V
+504 921 M
+47 0 V
+2640 0 R
+-47 0 V
+504 988 M
+47 0 V
+2640 0 R
+-47 0 V
+504 1056 M
+47 0 V
+2640 0 R
+-47 0 V
+504 1124 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 1124 M
+[ [(Arial) 140.0 0.0 true true 0 (-6)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 1191 M
+47 0 V
+2640 0 R
+-47 0 V
+504 1259 M
+47 0 V
+2640 0 R
+-47 0 V
+504 1326 M
+47 0 V
+2640 0 R
+-47 0 V
+504 1394 M
+47 0 V
+2640 0 R
+-47 0 V
+504 1461 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 1461 M
+[ [(Arial) 140.0 0.0 true true 0 (-4)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 1529 M
+47 0 V
+2640 0 R
+-47 0 V
+504 1596 M
+47 0 V
+2640 0 R
+-47 0 V
+504 1664 M
+47 0 V
+2640 0 R
+-47 0 V
+504 1732 M
+47 0 V
+2640 0 R
+-47 0 V
+504 1799 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 1799 M
+[ [(Arial) 140.0 0.0 true true 0 (-2)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 1867 M
+47 0 V
+2640 0 R
+-47 0 V
+504 1934 M
+47 0 V
+2640 0 R
+-47 0 V
+504 2002 M
+47 0 V
+2640 0 R
+-47 0 V
+504 2069 M
+47 0 V
+2640 0 R
+-47 0 V
+504 2137 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 2137 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 2204 M
+47 0 V
+2640 0 R
+-47 0 V
+504 2272 M
+47 0 V
+2640 0 R
+-47 0 V
+504 2340 M
+47 0 V
+2640 0 R
+-47 0 V
+504 2407 M
+47 0 V
+2640 0 R
+-47 0 V
+504 2475 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 2475 M
+[ [(Arial) 140.0 0.0 true true 0 ( 2)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 2542 M
+47 0 V
+2640 0 R
+-47 0 V
+504 2610 M
+47 0 V
+2640 0 R
+-47 0 V
+504 2677 M
+47 0 V
+2640 0 R
+-47 0 V
+504 2745 M
+47 0 V
+2640 0 R
+-47 0 V
+504 2812 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 2812 M
+[ [(Arial) 140.0 0.0 true true 0 ( 4)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 2880 M
+47 0 V
+2640 0 R
+-47 0 V
+504 2948 M
+47 0 V
+2640 0 R
+-47 0 V
+504 3015 M
+47 0 V
+2640 0 R
+-47 0 V
+504 3083 M
+47 0 V
+2640 0 R
+-47 0 V
+504 3150 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 3150 M
+[ [(Arial) 140.0 0.0 true true 0 ( 6)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 3218 M
+47 0 V
+2640 0 R
+-47 0 V
+504 3285 M
+47 0 V
+2640 0 R
+-47 0 V
+504 3353 M
+47 0 V
+2640 0 R
+-47 0 V
+504 3420 M
+47 0 V
+2640 0 R
+-47 0 V
+504 3488 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 3488 M
+[ [(Arial) 140.0 0.0 true true 0 ( 8)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+504 308 M
+[ [(Arial) 140.0 0.0 true true 0 (-1.5)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+594 448 M
+0 31 V
+0 3009 R
+0 -31 V
+683 448 M
+0 31 V
+0 3009 R
+0 -31 V
+773 448 M
+0 31 V
+0 3009 R
+0 -31 V
+862 448 M
+0 31 V
+0 3009 R
+0 -31 V
+952 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+952 308 M
+[ [(Arial) 140.0 0.0 true true 0 (-1)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+1041 448 M
+0 31 V
+0 3009 R
+0 -31 V
+1131 448 M
+0 31 V
+0 3009 R
+0 -31 V
+1221 448 M
+0 31 V
+0 3009 R
+0 -31 V
+1310 448 M
+0 31 V
+0 3009 R
+0 -31 V
+1400 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+1400 308 M
+[ [(Arial) 140.0 0.0 true true 0 (-0.5)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+1489 448 M
+0 31 V
+0 3009 R
+0 -31 V
+1579 448 M
+0 31 V
+0 3009 R
+0 -31 V
+1668 448 M
+0 31 V
+0 3009 R
+0 -31 V
+1758 448 M
+0 31 V
+0 3009 R
+0 -31 V
+1848 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+1848 308 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+1937 448 M
+0 31 V
+0 3009 R
+0 -31 V
+2027 448 M
+0 31 V
+0 3009 R
+0 -31 V
+2116 448 M
+0 31 V
+0 3009 R
+0 -31 V
+2206 448 M
+0 31 V
+0 3009 R
+0 -31 V
+2295 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+2295 308 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0.5)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+2385 448 M
+0 31 V
+0 3009 R
+0 -31 V
+2474 448 M
+0 31 V
+0 3009 R
+0 -31 V
+2564 448 M
+0 31 V
+0 3009 R
+0 -31 V
+2654 448 M
+0 31 V
+0 3009 R
+0 -31 V
+2743 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+2743 308 M
+[ [(Arial) 140.0 0.0 true true 0 ( 1)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+2833 448 M
+0 31 V
+0 3009 R
+0 -31 V
+2922 448 M
+0 31 V
+0 3009 R
+0 -31 V
+3012 448 M
+0 31 V
+0 3009 R
+0 -31 V
+3101 448 M
+0 31 V
+0 3009 R
+0 -31 V
+3191 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+3191 308 M
+[ [(Arial) 140.0 0.0 true true 0 ( 1.5)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+504 3488 N
+504 448 L
+2687 0 V
+0 3040 V
+-2687 0 V
+Z stroke
+1.000 UP
+LCb setrgbcolor
+2833 2981 M
+[ [(Arial Bold) 200.0 0.0 true true 0 (d\))]
+] -66.7 MLshow
+/Arial findfont 140 scalefont setfont
+2.500 UL
+LT1
+LCb setrgbcolor
+504 2137 M
+2687 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+LCb setrgbcolor
+119 1968 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(Arial) 180.0 0.0 true true 0 (Energy [eV])]
+] -60.0 MCshow
+grestore
+/Arial findfont 140 scalefont setfont
+LTb
+% Begin plot #1
+3.000 UL
+LTb
+0.00 0.00 0.00 C
+1848 448 M
+0 7 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+1 9 V
+0 8 V
+1 9 V
+1 8 V
+1 8 V
+1 9 V
+1 8 V
+1 9 V
+2 8 V
+2 9 V
+1 8 V
+2 9 V
+1 8 V
+0 8 V
+0 9 V
+-2 8 V
+-2 9 V
+-3 8 V
+-2 9 V
+-2 8 V
+-2 9 V
+-1 8 V
+-1 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+1 8 V
+1 9 V
+2 8 V
+3 9 V
+2 8 V
+3 9 V
+2 8 V
+2 9 V
+2 8 V
+2 9 V
+1 8 V
+2 8 V
+0 9 V
+-1 8 V
+-3 9 V
+-3 8 V
+-3 9 V
+-2 8 V
+-1 9 V
+0 8 V
+0 9 V
+1 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+1 8 V
+3 9 V
+5 8 V
+6 9 V
+8 8 V
+6 8 V
+3 9 V
+0 8 V
+-3 9 V
+-5 8 V
+-6 9 V
+-5 8 V
+-4 9 V
+-3 8 V
+-3 9 V
+-3 8 V
+-3 8 V
+-4 9 V
+-3 8 V
+-3 9 V
+-2 8 V
+-1 9 V
+-1 8 V
+0 9 V
+0 8 V
+-1 8 V
+-2 9 V
+-1 8 V
+-3 9 V
+-2 8 V
+-2 9 V
+-1 8 V
+-2 9 V
+-1 8 V
+-1 9 V
+-1 8 V
+0 8 V
+-1 9 V
+0 8 V
+1 9 V
+1 8 V
+2 9 V
+2 8 V
+2 9 V
+1 8 V
+1 9 V
+0 8 V
+0 8 V
+0 9 V
+-2 8 V
+-2 9 V
+-3 8 V
+-3 9 V
+-3 8 V
+-2 9 V
+-1 8 V
+0 8 V
+2 9 V
+2 8 V
+3 9 V
+2 8 V
+2 9 V
+2 8 V
+1 9 V
+1 8 V
+2 9 V
+1 8 V
+2 8 V
+1 9 V
+2 8 V
+2 9 V
+1 8 V
+1 9 V
+1 8 V
+1 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+1 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+1 8 V
+0 9 V
+1 8 V
+0 9 V
+1 8 V
+0 9 V
+-1 8 V
+stroke 1850 2551 M
+-1 8 V
+-1 9 V
+-1 8 V
+-1 9 V
+-1 8 V
+0 9 V
+-1 8 V
+0 9 V
+1 8 V
+1 8 V
+1 9 V
+0 8 V
+1 9 V
+0 8 V
+0 9 V
+-1 8 V
+0 9 V
+0 8 V
+-1 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+1 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+-1 8 V
+-1 9 V
+-1 8 V
+-1 9 V
+-2 8 V
+-2 9 V
+-3 8 V
+-5 9 V
+-6 8 V
+-6 8 V
+-7 9 V
+-6 8 V
+-5 9 V
+-2 8 V
+0 9 V
+1 8 V
+2 9 V
+2 8 V
+2 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+-1 9 V
+-2 8 V
+-5 9 V
+-9 8 V
+-13 8 V
+-15 9 V
+-18 8 V
+-18 9 V
+-15 8 V
+-10 9 V
+-2 8 V
+4 9 V
+10 8 V
+11 9 V
+8 8 V
+% End plot #1
+% Begin plot #2
+stroke
+LTb
+1.00 0.00 0.00 C
+1848 448 M
+0 7 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+2 9 V
+3 8 V
+5 9 V
+10 8 V
+17 9 V
+24 8 V
+33 9 V
+40 8 V
+46 8 V
+46 9 V
+41 8 V
+30 9 V
+16 8 V
+0 9 V
+-17 8 V
+-31 9 V
+-39 8 V
+-43 9 V
+-41 8 V
+-36 8 V
+-30 9 V
+-24 8 V
+-18 9 V
+-13 8 V
+-9 9 V
+-6 8 V
+-3 9 V
+-2 8 V
+-1 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+1 9 V
+3 8 V
+7 9 V
+14 8 V
+26 9 V
+43 8 V
+64 8 V
+84 9 V
+97 8 V
+98 9 V
+86 8 V
+60 9 V
+32 8 V
+5 9 V
+-13 8 V
+-23 8 V
+-27 9 V
+-29 8 V
+-29 9 V
+-25 8 V
+-18 9 V
+-9 8 V
+0 9 V
+3 8 V
+-2 9 V
+-12 8 V
+-24 8 V
+-34 9 V
+-39 8 V
+-36 9 V
+-24 8 V
+-6 9 V
+14 8 V
+33 9 V
+44 8 V
+46 8 V
+40 9 V
+26 8 V
+10 9 V
+-4 8 V
+-11 9 V
+-15 8 V
+-14 9 V
+-14 8 V
+-15 9 V
+-18 8 V
+-21 8 V
+-25 9 V
+-27 8 V
+-27 9 V
+-27 8 V
+-24 9 V
+-22 8 V
+-19 9 V
+-14 8 V
+-10 8 V
+-6 9 V
+-5 8 V
+-2 9 V
+-2 8 V
+-2 9 V
+-3 8 V
+-2 9 V
+-3 8 V
+-1 9 V
+1 8 V
+3 8 V
+4 9 V
+3 8 V
+2 9 V
+-1 8 V
+-3 9 V
+-4 8 V
+-6 9 V
+-6 8 V
+-7 9 V
+-8 8 V
+-9 8 V
+-9 9 V
+-9 8 V
+-8 9 V
+-8 8 V
+-8 9 V
+-8 8 V
+-9 9 V
+-8 8 V
+-9 8 V
+-8 9 V
+-6 8 V
+-6 9 V
+-5 8 V
+-4 9 V
+-3 8 V
+-2 9 V
+0 8 V
+2 9 V
+2 8 V
+3 8 V
+2 9 V
+0 8 V
+-2 9 V
+-3 8 V
+-5 9 V
+-4 8 V
+-3 9 V
+-2 8 V
+-1 8 V
+-1 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+-1 9 V
+0 8 V
+0 9 V
+0 8 V
+-1 9 V
+-2 8 V
+-5 8 V
+-10 9 V
+-18 8 V
+-31 9 V
+-46 8 V
+-62 9 V
+-75 8 V
+-81 9 V
+-78 8 V
+-67 9 V
+-52 8 V
+stroke 1319 2551 M
+-33 8 V
+-16 9 V
+3 8 V
+19 9 V
+33 8 V
+40 9 V
+37 8 V
+23 9 V
+-2 8 V
+-28 8 V
+-46 9 V
+-48 8 V
+-28 9 V
+6 8 V
+43 9 V
+71 8 V
+80 9 V
+72 8 V
+51 9 V
+28 8 V
+7 8 V
+-9 9 V
+-18 8 V
+-18 9 V
+-11 8 V
+3 9 V
+21 8 V
+37 9 V
+45 8 V
+44 8 V
+32 9 V
+13 8 V
+-10 9 V
+-35 8 V
+-61 9 V
+-85 8 V
+-104 9 V
+-113 8 V
+-112 9 V
+-98 8 V
+-77 8 V
+-56 9 V
+-35 8 V
+-20 9 V
+-11 8 V
+-1 9 V
+12 8 V
+30 9 V
+53 8 V
+73 9 V
+79 8 V
+67 8 V
+38 9 V
+4 8 V
+-23 9 V
+-32 8 V
+-24 9 V
+-5 8 V
+16 9 V
+32 8 V
+37 8 V
+35 9 V
+27 8 V
+14 9 V
+3 8 V
+-5 9 V
+-9 8 V
+-10 9 V
+-12 8 V
+-18 9 V
+-26 8 V
+-35 8 V
+-42 9 V
+-44 8 V
+-40 9 V
+-33 8 V
+-25 9 V
+-20 8 V
+-21 9 V
+-27 8 V
+-31 8 V
+-27 9 V
+-13 8 V
+9 9 V
+33 8 V
+49 9 V
+54 8 V
+52 9 V
+45 8 V
+37 9 V
+30 8 V
+23 8 V
+15 9 V
+2 8 V
+-12 9 V
+-22 8 V
+-27 9 V
+-23 8 V
+-9 9 V
+11 8 V
+30 8 V
+42 9 V
+46 8 V
+39 9 V
+30 8 V
+21 9 V
+15 8 V
+13 9 V
+13 8 V
+11 9 V
+9 7 V
+% End plot #2
+% Begin plot #3
+stroke
+LTb
+0.00 0.00 1.00 C
+1848 448 M
+0 7 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+2 8 V
+3 9 V
+6 8 V
+13 9 V
+23 8 V
+36 9 V
+53 8 V
+71 9 V
+87 8 V
+98 8 V
+101 9 V
+95 8 V
+81 9 V
+60 8 V
+35 9 V
+5 8 V
+-26 9 V
+-55 8 V
+-77 9 V
+-91 8 V
+-96 8 V
+-94 9 V
+-84 8 V
+-72 9 V
+-58 8 V
+-42 9 V
+-30 8 V
+-19 9 V
+-12 8 V
+-7 8 V
+-3 9 V
+-2 8 V
+-1 9 V
+1 8 V
+1 9 V
+5 8 V
+11 9 V
+22 8 V
+41 9 V
+66 8 V
+98 8 V
+128 9 V
+148 8 V
+150 9 V
+130 8 V
+97 9 V
+57 8 V
+22 9 V
+2 8 V
+-9 8 V
+-14 9 V
+-18 8 V
+-26 9 V
+-35 8 V
+-43 9 V
+-46 8 V
+-45 9 V
+-41 8 V
+-37 9 V
+-37 8 V
+-42 8 V
+-50 9 V
+-61 8 V
+-70 9 V
+-75 8 V
+-71 9 V
+-63 8 V
+-51 9 V
+-39 8 V
+-27 8 V
+-20 9 V
+-13 8 V
+-9 9 V
+-6 8 V
+-4 9 V
+-2 8 V
+-1 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+-2 9 V
+-1 8 V
+-1 9 V
+-2 8 V
+0 9 V
+0 8 V
+0 9 V
+2 8 V
+2 8 V
+3 9 V
+3 8 V
+5 9 V
+6 8 V
+8 9 V
+8 8 V
+8 9 V
+9 8 V
+9 9 V
+9 8 V
+9 8 V
+6 9 V
+4 8 V
+-1 9 V
+-4 8 V
+-7 9 V
+-10 8 V
+-9 9 V
+-9 8 V
+-9 9 V
+-9 8 V
+-8 8 V
+-6 9 V
+-6 8 V
+-4 9 V
+-4 8 V
+-2 9 V
+-3 8 V
+-2 9 V
+-4 8 V
+-3 8 V
+-4 9 V
+-3 8 V
+-3 9 V
+-1 8 V
+0 9 V
+1 8 V
+3 9 V
+2 8 V
+2 9 V
+1 8 V
+0 8 V
+-1 9 V
+-1 8 V
+-1 9 V
+-1 8 V
+-2 9 V
+0 8 V
+-1 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+-1 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+-1 9 V
+-1 8 V
+-2 9 V
+-4 8 V
+-4 9 V
+-5 8 V
+-6 9 V
+-4 8 V
+-4 9 V
+-2 8 V
+stroke 1814 2551 M
+0 8 V
+1 9 V
+1 8 V
+2 9 V
+3 8 V
+2 9 V
+1 8 V
+2 9 V
+1 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+-1 9 V
+-1 8 V
+-1 9 V
+-3 8 V
+-3 8 V
+-3 9 V
+-4 8 V
+-4 9 V
+-2 8 V
+0 9 V
+3 8 V
+6 9 V
+6 8 V
+6 8 V
+2 9 V
+-3 8 V
+-10 9 V
+-16 8 V
+-23 9 V
+-28 8 V
+-32 9 V
+-30 8 V
+-27 9 V
+-19 8 V
+-11 8 V
+-3 9 V
+3 8 V
+8 9 V
+10 8 V
+11 9 V
+11 8 V
+11 9 V
+11 8 V
+10 9 V
+8 8 V
+4 8 V
+0 9 V
+-6 8 V
+-10 9 V
+-14 8 V
+-16 9 V
+-20 8 V
+-25 9 V
+-34 8 V
+-47 8 V
+-65 9 V
+-85 8 V
+-105 9 V
+-114 8 V
+-115 9 V
+-105 8 V
+-94 9 V
+-90 8 V
+-102 9 V
+-126 8 V
+-36 1 V
+% End plot #3
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+504 448 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 448 M
+[ [(Arial) 140.0 0.0 true true 0 (-10)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 516 M
+47 0 V
+2640 0 R
+-47 0 V
+504 583 M
+47 0 V
+2640 0 R
+-47 0 V
+504 651 M
+47 0 V
+2640 0 R
+-47 0 V
+504 718 M
+47 0 V
+2640 0 R
+-47 0 V
+504 786 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 786 M
+[ [(Arial) 140.0 0.0 true true 0 (-8)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 853 M
+47 0 V
+2640 0 R
+-47 0 V
+504 921 M
+47 0 V
+2640 0 R
+-47 0 V
+504 988 M
+47 0 V
+2640 0 R
+-47 0 V
+504 1056 M
+47 0 V
+2640 0 R
+-47 0 V
+504 1124 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 1124 M
+[ [(Arial) 140.0 0.0 true true 0 (-6)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 1191 M
+47 0 V
+2640 0 R
+-47 0 V
+504 1259 M
+47 0 V
+2640 0 R
+-47 0 V
+504 1326 M
+47 0 V
+2640 0 R
+-47 0 V
+504 1394 M
+47 0 V
+2640 0 R
+-47 0 V
+504 1461 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 1461 M
+[ [(Arial) 140.0 0.0 true true 0 (-4)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 1529 M
+47 0 V
+2640 0 R
+-47 0 V
+504 1596 M
+47 0 V
+2640 0 R
+-47 0 V
+504 1664 M
+47 0 V
+2640 0 R
+-47 0 V
+504 1732 M
+47 0 V
+2640 0 R
+-47 0 V
+504 1799 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 1799 M
+[ [(Arial) 140.0 0.0 true true 0 (-2)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 1867 M
+47 0 V
+2640 0 R
+-47 0 V
+504 1934 M
+47 0 V
+2640 0 R
+-47 0 V
+504 2002 M
+47 0 V
+2640 0 R
+-47 0 V
+504 2069 M
+47 0 V
+2640 0 R
+-47 0 V
+504 2137 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 2137 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 2204 M
+47 0 V
+2640 0 R
+-47 0 V
+504 2272 M
+47 0 V
+2640 0 R
+-47 0 V
+504 2340 M
+47 0 V
+2640 0 R
+-47 0 V
+504 2407 M
+47 0 V
+2640 0 R
+-47 0 V
+504 2475 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 2475 M
+[ [(Arial) 140.0 0.0 true true 0 ( 2)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 2542 M
+47 0 V
+2640 0 R
+-47 0 V
+504 2610 M
+47 0 V
+2640 0 R
+-47 0 V
+504 2677 M
+47 0 V
+2640 0 R
+-47 0 V
+504 2745 M
+47 0 V
+2640 0 R
+-47 0 V
+504 2812 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 2812 M
+[ [(Arial) 140.0 0.0 true true 0 ( 4)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 2880 M
+47 0 V
+2640 0 R
+-47 0 V
+504 2948 M
+47 0 V
+2640 0 R
+-47 0 V
+504 3015 M
+47 0 V
+2640 0 R
+-47 0 V
+504 3083 M
+47 0 V
+2640 0 R
+-47 0 V
+504 3150 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 3150 M
+[ [(Arial) 140.0 0.0 true true 0 ( 6)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 3218 M
+47 0 V
+2640 0 R
+-47 0 V
+504 3285 M
+47 0 V
+2640 0 R
+-47 0 V
+504 3353 M
+47 0 V
+2640 0 R
+-47 0 V
+504 3420 M
+47 0 V
+2640 0 R
+-47 0 V
+504 3488 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+420 3488 M
+[ [(Arial) 140.0 0.0 true true 0 ( 8)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+504 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+504 308 M
+[ [(Arial) 140.0 0.0 true true 0 (-1.5)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+594 448 M
+0 31 V
+0 3009 R
+0 -31 V
+683 448 M
+0 31 V
+0 3009 R
+0 -31 V
+773 448 M
+0 31 V
+0 3009 R
+0 -31 V
+862 448 M
+0 31 V
+0 3009 R
+0 -31 V
+952 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+952 308 M
+[ [(Arial) 140.0 0.0 true true 0 (-1)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+1041 448 M
+0 31 V
+0 3009 R
+0 -31 V
+1131 448 M
+0 31 V
+0 3009 R
+0 -31 V
+1221 448 M
+0 31 V
+0 3009 R
+0 -31 V
+1310 448 M
+0 31 V
+0 3009 R
+0 -31 V
+1400 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+1400 308 M
+[ [(Arial) 140.0 0.0 true true 0 (-0.5)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+1489 448 M
+0 31 V
+0 3009 R
+0 -31 V
+1579 448 M
+0 31 V
+0 3009 R
+0 -31 V
+1668 448 M
+0 31 V
+0 3009 R
+0 -31 V
+1758 448 M
+0 31 V
+0 3009 R
+0 -31 V
+1848 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+1848 308 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+1937 448 M
+0 31 V
+0 3009 R
+0 -31 V
+2027 448 M
+0 31 V
+0 3009 R
+0 -31 V
+2116 448 M
+0 31 V
+0 3009 R
+0 -31 V
+2206 448 M
+0 31 V
+0 3009 R
+0 -31 V
+2295 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+2295 308 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0.5)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+2385 448 M
+0 31 V
+0 3009 R
+0 -31 V
+2474 448 M
+0 31 V
+0 3009 R
+0 -31 V
+2564 448 M
+0 31 V
+0 3009 R
+0 -31 V
+2654 448 M
+0 31 V
+0 3009 R
+0 -31 V
+2743 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+2743 308 M
+[ [(Arial) 140.0 0.0 true true 0 ( 1)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+2833 448 M
+0 31 V
+0 3009 R
+0 -31 V
+2922 448 M
+0 31 V
+0 3009 R
+0 -31 V
+3012 448 M
+0 31 V
+0 3009 R
+0 -31 V
+3101 448 M
+0 31 V
+0 3009 R
+0 -31 V
+3191 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+3191 308 M
+[ [(Arial) 140.0 0.0 true true 0 ( 1.5)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+2.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+504 3488 N
+504 448 L
+2687 0 V
+0 3040 V
+-2687 0 V
+Z stroke
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 448 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 448 M
+[ [(Arial) 140.0 0.0 true true 0 (-10)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 516 M
+47 0 V
+2640 0 R
+-47 0 V
+3864 583 M
+47 0 V
+2640 0 R
+-47 0 V
+3864 651 M
+47 0 V
+2640 0 R
+-47 0 V
+3864 718 M
+47 0 V
+2640 0 R
+-47 0 V
+3864 786 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 786 M
+[ [(Arial) 140.0 0.0 true true 0 (-8)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 853 M
+47 0 V
+2640 0 R
+-47 0 V
+3864 921 M
+47 0 V
+2640 0 R
+-47 0 V
+3864 988 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 1124 M
+[ [(Arial) 140.0 0.0 true true 0 (-6)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 1191 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 1461 M
+[ [(Arial) 140.0 0.0 true true 0 (-4)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 1529 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 1799 M
+[ [(Arial) 140.0 0.0 true true 0 (-2)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 1867 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 2137 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 2204 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 2475 M
+[ [(Arial) 140.0 0.0 true true 0 ( 2)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 2542 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 2812 M
+[ [(Arial) 140.0 0.0 true true 0 ( 4)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 2880 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 3150 M
+[ [(Arial) 140.0 0.0 true true 0 ( 6)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 3218 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 3488 M
+[ [(Arial) 140.0 0.0 true true 0 ( 8)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+3864 308 M
+[ [(Arial) 140.0 0.0 true true 0 (-1.5)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3954 448 M
+0 31 V
+0 3009 R
+0 -31 V
+4043 448 M
+0 31 V
+0 3009 R
+0 -31 V
+4133 448 M
+0 31 V
+0 3009 R
+0 -31 V
+4222 448 M
+0 31 V
+0 3009 R
+0 -31 V
+4312 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+4312 308 M
+[ [(Arial) 140.0 0.0 true true 0 (-1)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4401 448 M
+0 31 V
+0 3009 R
+0 -31 V
+4491 448 M
+0 31 V
+0 3009 R
+0 -31 V
+4581 448 M
+0 31 V
+0 3009 R
+0 -31 V
+4670 448 M
+0 31 V
+0 3009 R
+0 -31 V
+4760 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+4760 308 M
+[ [(Arial) 140.0 0.0 true true 0 (-0.5)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4849 448 M
+0 31 V
+0 3009 R
+0 -31 V
+4939 448 M
+0 31 V
+0 3009 R
+0 -31 V
+5028 448 M
+0 31 V
+0 3009 R
+0 -31 V
+5118 448 M
+0 31 V
+0 3009 R
+0 -31 V
+5208 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+5208 308 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+5297 448 M
+0 31 V
+0 3009 R
+0 -31 V
+5387 448 M
+0 31 V
+0 3009 R
+0 -31 V
+5476 448 M
+0 31 V
+0 3009 R
+0 -31 V
+5566 448 M
+0 31 V
+0 3009 R
+0 -31 V
+5655 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+5655 308 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0.5)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+5745 448 M
+0 31 V
+0 3009 R
+0 -31 V
+5834 448 M
+0 31 V
+0 3009 R
+0 -31 V
+5924 448 M
+0 31 V
+0 3009 R
+0 -31 V
+6014 448 M
+0 31 V
+0 3009 R
+0 -31 V
+6103 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+6103 308 M
+[ [(Arial) 140.0 0.0 true true 0 ( 1)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+6193 448 M
+0 31 V
+0 3009 R
+0 -31 V
+6282 448 M
+0 31 V
+0 3009 R
+0 -31 V
+6372 448 M
+0 31 V
+0 3009 R
+0 -31 V
+6461 448 M
+0 31 V
+0 3009 R
+0 -31 V
+6551 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+6551 308 M
+[ [(Arial) 140.0 0.0 true true 0 ( 1.5)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+3864 3488 N
+0 -3040 V
+2687 0 V
+0 3040 V
+-2687 0 V
+Z stroke
+1.000 UP
+LCb setrgbcolor
+6193 2981 M
+[ [(Arial Bold) 200.0 0.0 true true 0 (e\))]
+] -66.7 MLshow
+/Arial findfont 140 scalefont setfont
+2.500 UL
+LT1
+LCb setrgbcolor
+3864 2137 M
+2687 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+LCb setrgbcolor
+3479 1968 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(Arial) 180.0 0.0 true true 0 (Energy [eV])]
+] -60.0 MCshow
+grestore
+/Arial findfont 140 scalefont setfont
+LTb
+LCb setrgbcolor
+5207 98 M
+[ [(Arial) 180.0 0.0 true true 0 (-pCOHP)]
+] -60.0 MCshow
+/Arial findfont 140 scalefont setfont
+LTb
+% Begin plot #1
+3.000 UL
+LTb
+0.00 0.00 0.00 C
+LCb setrgbcolor
+4498 1381 M
+[ [(Arial) 160.0 0.0 true true 0 (Ca-O)]
+] -53.3 MRshow
+/Arial findfont 140 scalefont setfont
+3.000 UL
+LTb
+0.00 0.00 0.00 C
+4594 1381 M
+159 0 V
+5208 448 M
+0 7 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+1 8 V
+0 9 V
+1 8 V
+1 9 V
+2 8 V
+1 9 V
+2 8 V
+2 9 V
+1 8 V
+0 9 V
+0 8 V
+-1 8 V
+-1 9 V
+-2 8 V
+-2 9 V
+-2 8 V
+-1 9 V
+-1 8 V
+-1 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+1 8 V
+1 9 V
+2 8 V
+2 9 V
+1 8 V
+2 8 V
+0 9 V
+0 8 V
+-1 9 V
+-1 8 V
+-1 9 V
+-1 8 V
+0 9 V
+0 8 V
+-1 8 V
+-1 9 V
+0 8 V
+-1 9 V
+-1 8 V
+0 9 V
+1 8 V
+1 9 V
+1 8 V
+1 9 V
+0 8 V
+1 8 V
+1 9 V
+2 8 V
+4 9 V
+6 8 V
+6 9 V
+6 8 V
+4 9 V
+1 8 V
+-2 8 V
+-4 9 V
+-6 8 V
+-6 9 V
+-5 8 V
+-4 9 V
+-2 8 V
+-2 9 V
+-2 8 V
+-2 9 V
+-2 8 V
+-2 8 V
+-2 9 V
+-2 8 V
+-1 9 V
+-1 8 V
+0 9 V
+0 8 V
+-1 9 V
+-1 8 V
+-1 8 V
+-1 9 V
+-1 8 V
+-2 9 V
+-1 8 V
+0 9 V
+0 8 V
+-1 9 V
+0 8 V
+-2 9 V
+-2 8 V
+-2 8 V
+-2 9 V
+-2 8 V
+-2 9 V
+0 8 V
+0 9 V
+0 8 V
+2 9 V
+1 8 V
+1 9 V
+1 8 V
+1 8 V
+1 9 V
+0 8 V
+0 9 V
+-1 8 V
+-2 9 V
+-2 8 V
+-3 9 V
+-1 8 V
+-1 8 V
+1 9 V
+1 8 V
+2 9 V
+3 8 V
+2 9 V
+2 8 V
+3 9 V
+2 8 V
+3 9 V
+2 8 V
+2 8 V
+2 9 V
+2 8 V
+2 9 V
+1 8 V
+1 9 V
+1 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+1 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+1 8 V
+0 9 V
+0 8 V
+stroke 5209 2534 M
+1 9 V
+0 8 V
+1 8 V
+0 9 V
+0 8 V
+-1 9 V
+-1 8 V
+-1 9 V
+-1 8 V
+-1 9 V
+-1 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+1 8 V
+0 9 V
+1 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+-1 8 V
+0 9 V
+0 8 V
+1 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+-1 8 V
+-1 8 V
+-1 9 V
+-2 8 V
+-1 9 V
+-2 8 V
+-2 9 V
+-2 8 V
+-3 9 V
+-3 8 V
+-5 9 V
+-4 8 V
+-4 8 V
+-4 9 V
+-2 8 V
+-1 9 V
+0 8 V
+0 9 V
+-1 8 V
+-1 9 V
+-1 8 V
+-2 8 V
+-2 9 V
+-1 8 V
+-1 9 V
+1 8 V
+1 9 V
+2 8 V
+2 9 V
+1 8 V
+-4 9 V
+-8 8 V
+-14 8 V
+-19 9 V
+-21 8 V
+-18 9 V
+-12 8 V
+-5 9 V
+1 8 V
+4 9 V
+2 8 V
+-3 8 V
+-8 9 V
+-12 8 V
+-11 9 V
+-10 8 V
+-7 9 V
+-4 8 V
+-1 9 V
+-1 8 V
+2 9 V
+5 8 V
+9 8 V
+12 9 V
+13 8 V
+11 9 V
+8 8 V
+3 9 V
+0 8 V
+-1 9 V
+0 8 V
+1 8 V
+4 9 V
+4 8 V
+5 9 V
+6 8 V
+5 9 V
+6 8 V
+8 9 V
+7 8 V
+8 9 V
+7 7 V
+% End plot #1
+% Begin plot #2
+stroke
+LTb
+1.00 0.00 0.00 C
+LCb setrgbcolor
+4498 1221 M
+[ [(Arial) 160.0 0.0 true true 0 (Ti-O)]
+] -53.3 MRshow
+/Arial findfont 140 scalefont setfont
+3.000 UL
+LTb
+1.00 0.00 0.00 C
+4594 1221 M
+159 0 V
+5208 448 M
+0 7 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+1 8 V
+3 9 V
+4 8 V
+9 9 V
+15 8 V
+24 9 V
+31 8 V
+41 9 V
+45 8 V
+48 8 V
+43 9 V
+35 8 V
+21 9 V
+6 8 V
+-10 9 V
+-25 8 V
+-37 9 V
+-41 8 V
+-42 9 V
+-38 8 V
+-33 8 V
+-27 9 V
+-22 8 V
+-17 9 V
+-13 8 V
+-9 9 V
+-5 8 V
+-4 9 V
+-2 8 V
+-1 8 V
+0 9 V
+1 8 V
+3 9 V
+6 8 V
+13 9 V
+23 8 V
+39 9 V
+57 8 V
+74 9 V
+88 8 V
+91 8 V
+83 9 V
+64 8 V
+40 9 V
+17 8 V
+-1 9 V
+-13 8 V
+-17 9 V
+-17 8 V
+-16 8 V
+-12 9 V
+-9 8 V
+-5 9 V
+-1 8 V
+-1 9 V
+-5 8 V
+-13 9 V
+-24 8 V
+-33 9 V
+-41 8 V
+-42 8 V
+-35 9 V
+-23 8 V
+-3 9 V
+18 8 V
+36 9 V
+47 8 V
+46 9 V
+37 8 V
+19 8 V
+0 9 V
+-14 8 V
+-22 9 V
+-22 8 V
+-19 9 V
+-15 8 V
+-14 9 V
+-15 8 V
+-18 9 V
+-20 8 V
+-22 8 V
+-23 9 V
+-22 8 V
+-21 9 V
+-20 8 V
+-16 9 V
+-12 8 V
+-7 9 V
+-3 8 V
+-1 8 V
+0 9 V
+-2 8 V
+-3 9 V
+-7 8 V
+-9 9 V
+-9 8 V
+-9 9 V
+-7 8 V
+-2 9 V
+1 8 V
+4 8 V
+5 9 V
+5 8 V
+2 9 V
+0 8 V
+-3 9 V
+-6 8 V
+-8 9 V
+-8 8 V
+-10 9 V
+-10 8 V
+-9 8 V
+-8 9 V
+-7 8 V
+-6 9 V
+-5 8 V
+-6 9 V
+-6 8 V
+-7 9 V
+-7 8 V
+-7 8 V
+-7 9 V
+-6 8 V
+-4 9 V
+-4 8 V
+-4 9 V
+-4 8 V
+-4 9 V
+-4 8 V
+-4 9 V
+-3 8 V
+-1 8 V
+0 9 V
+0 8 V
+2 9 V
+1 8 V
+1 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+-1 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+-2 8 V
+-3 9 V
+-6 8 V
+-11 9 V
+-19 8 V
+-30 9 V
+-44 8 V
+stroke 5092 2534 M
+-58 9 V
+-71 8 V
+-79 8 V
+-80 9 V
+-73 8 V
+-61 9 V
+-42 8 V
+-21 9 V
+1 8 V
+22 9 V
+39 8 V
+47 8 V
+43 9 V
+27 8 V
+1 9 V
+-28 8 V
+-49 9 V
+-55 8 V
+-41 9 V
+-10 8 V
+30 9 V
+63 8 V
+83 8 V
+83 9 V
+70 8 V
+48 9 V
+26 8 V
+7 9 V
+-7 8 V
+-17 9 V
+-22 8 V
+-22 8 V
+-15 9 V
+-3 8 V
+16 9 V
+33 8 V
+47 9 V
+49 8 V
+43 9 V
+28 8 V
+9 9 V
+-14 8 V
+-39 8 V
+-65 9 V
+-92 8 V
+-113 9 V
+-123 8 V
+-119 9 V
+-100 8 V
+-71 9 V
+-43 8 V
+-18 9 V
+-4 8 V
+1 8 V
+1 9 V
+4 8 V
+15 9 V
+34 8 V
+60 9 V
+84 8 V
+92 9 V
+82 8 V
+50 8 V
+7 9 V
+-37 8 V
+-70 9 V
+-81 8 V
+-67 9 V
+-32 8 V
+11 9 V
+47 8 V
+65 9 V
+61 8 V
+39 8 V
+12 9 V
+-11 8 V
+-22 9 V
+-21 8 V
+-14 9 V
+-8 8 V
+-8 9 V
+-16 8 V
+-28 8 V
+-36 9 V
+-37 8 V
+-29 9 V
+-16 8 V
+-3 9 V
+0 8 V
+-7 9 V
+-24 8 V
+-40 9 V
+-44 8 V
+-34 8 V
+-13 9 V
+14 8 V
+35 9 V
+46 8 V
+47 9 V
+40 8 V
+31 9 V
+22 8 V
+16 8 V
+10 9 V
+6 8 V
+2 9 V
+-1 8 V
+-5 9 V
+-6 8 V
+-6 9 V
+1 8 V
+15 9 V
+28 7 V
+% End plot #2
+% Begin plot #3
+stroke
+LTb
+0.00 0.00 1.00 C
+LCb setrgbcolor
+4498 1061 M
+[ [(Arial) 160.0 0.0 true true 0 (Si-O)]
+] -53.3 MRshow
+/Arial findfont 140 scalefont setfont
+3.000 UL
+LTb
+0.00 0.00 1.00 C
+4594 1061 M
+159 0 V
+5208 448 M
+0 7 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+1 9 V
+2 8 V
+5 9 V
+11 8 V
+19 9 V
+31 8 V
+47 9 V
+65 8 V
+81 9 V
+92 8 V
+96 8 V
+93 9 V
+81 8 V
+63 9 V
+41 8 V
+14 9 V
+-15 8 V
+-42 9 V
+-63 8 V
+-78 9 V
+-84 8 V
+-85 8 V
+-80 9 V
+-73 8 V
+-63 9 V
+-52 8 V
+-39 9 V
+-27 8 V
+-18 9 V
+-11 8 V
+-6 8 V
+-3 9 V
+0 8 V
+4 9 V
+9 8 V
+20 9 V
+37 8 V
+59 9 V
+88 8 V
+116 9 V
+136 8 V
+143 8 V
+131 9 V
+105 8 V
+71 9 V
+37 8 V
+11 9 V
+-5 8 V
+-14 9 V
+-19 8 V
+-24 8 V
+-28 9 V
+-34 8 V
+-39 9 V
+-41 8 V
+-41 9 V
+-41 8 V
+-41 9 V
+-42 8 V
+-45 9 V
+-51 8 V
+-57 8 V
+-61 9 V
+-62 8 V
+-58 9 V
+-50 8 V
+-41 9 V
+-31 8 V
+-23 9 V
+-18 8 V
+-14 8 V
+-12 9 V
+-10 8 V
+-9 9 V
+-6 8 V
+-5 9 V
+-4 8 V
+-2 9 V
+-2 8 V
+-2 9 V
+-2 8 V
+-2 8 V
+-2 9 V
+-2 8 V
+-2 9 V
+-2 8 V
+-1 9 V
+0 8 V
+1 9 V
+2 8 V
+4 8 V
+4 9 V
+5 8 V
+5 9 V
+6 8 V
+6 9 V
+5 8 V
+6 9 V
+5 8 V
+5 9 V
+5 8 V
+6 8 V
+5 9 V
+3 8 V
+1 9 V
+-2 8 V
+-5 9 V
+-8 8 V
+-9 9 V
+-9 8 V
+-9 9 V
+-8 8 V
+-7 8 V
+-5 9 V
+-4 8 V
+-2 9 V
+-2 8 V
+-2 9 V
+-2 8 V
+-3 9 V
+-3 8 V
+-3 8 V
+-4 9 V
+-2 8 V
+-3 9 V
+-1 8 V
+-1 9 V
+1 8 V
+0 9 V
+2 8 V
+1 9 V
+0 8 V
+1 8 V
+-1 9 V
+-1 8 V
+-2 9 V
+-2 8 V
+-1 9 V
+-2 8 V
+0 9 V
+-1 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+-1 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+-1 8 V
+-1 9 V
+-2 8 V
+stroke 5203 2534 M
+-3 9 V
+-5 8 V
+-5 8 V
+-5 9 V
+-4 8 V
+-4 9 V
+-2 8 V
+0 9 V
+1 8 V
+1 9 V
+3 8 V
+3 8 V
+2 9 V
+2 8 V
+1 9 V
+1 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+-1 9 V
+-1 8 V
+-2 9 V
+-3 8 V
+-3 9 V
+-4 8 V
+-3 8 V
+-3 9 V
+0 8 V
+2 9 V
+5 8 V
+6 9 V
+7 8 V
+4 9 V
+2 8 V
+-3 9 V
+-9 8 V
+-16 8 V
+-24 9 V
+-30 8 V
+-35 9 V
+-36 8 V
+-30 9 V
+-21 8 V
+-11 9 V
+0 8 V
+8 9 V
+13 8 V
+14 8 V
+14 9 V
+14 8 V
+13 9 V
+13 8 V
+13 9 V
+12 8 V
+8 9 V
+4 8 V
+-5 8 V
+-14 9 V
+-23 8 V
+-30 9 V
+-35 8 V
+-34 9 V
+-32 8 V
+-26 9 V
+-25 8 V
+-33 9 V
+-54 8 V
+-84 8 V
+-116 9 V
+-140 8 V
+-143 9 V
+-129 8 V
+-105 9 V
+-86 8 V
+-85 9 V
+-43 3 V
+% End plot #3
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 448 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 448 M
+[ [(Arial) 140.0 0.0 true true 0 (-10)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 516 M
+47 0 V
+2640 0 R
+-47 0 V
+3864 583 M
+47 0 V
+2640 0 R
+-47 0 V
+3864 651 M
+47 0 V
+2640 0 R
+-47 0 V
+3864 718 M
+47 0 V
+2640 0 R
+-47 0 V
+3864 786 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 786 M
+[ [(Arial) 140.0 0.0 true true 0 (-8)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 853 M
+47 0 V
+2640 0 R
+-47 0 V
+3864 921 M
+47 0 V
+2640 0 R
+-47 0 V
+3864 988 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 1124 M
+[ [(Arial) 140.0 0.0 true true 0 (-6)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 1191 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 1461 M
+[ [(Arial) 140.0 0.0 true true 0 (-4)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 1529 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 1799 M
+[ [(Arial) 140.0 0.0 true true 0 (-2)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 1867 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 2137 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 2204 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 2475 M
+[ [(Arial) 140.0 0.0 true true 0 ( 2)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 2542 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 2812 M
+[ [(Arial) 140.0 0.0 true true 0 ( 4)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 2880 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 3150 M
+[ [(Arial) 140.0 0.0 true true 0 ( 6)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 3218 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+3780 3488 M
+[ [(Arial) 140.0 0.0 true true 0 ( 8)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3864 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+3864 308 M
+[ [(Arial) 140.0 0.0 true true 0 (-1.5)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3954 448 M
+0 31 V
+0 3009 R
+0 -31 V
+4043 448 M
+0 31 V
+0 3009 R
+0 -31 V
+4133 448 M
+0 31 V
+0 3009 R
+0 -31 V
+4222 448 M
+0 31 V
+0 3009 R
+0 -31 V
+4312 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+4312 308 M
+[ [(Arial) 140.0 0.0 true true 0 (-1)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4401 448 M
+0 31 V
+0 3009 R
+0 -31 V
+4491 448 M
+0 31 V
+0 3009 R
+0 -31 V
+4581 448 M
+0 31 V
+0 3009 R
+0 -31 V
+4670 448 M
+0 31 V
+0 3009 R
+0 -31 V
+4760 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+4760 308 M
+[ [(Arial) 140.0 0.0 true true 0 (-0.5)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4849 448 M
+0 31 V
+0 3009 R
+0 -31 V
+4939 448 M
+0 31 V
+0 3009 R
+0 -31 V
+5028 448 M
+0 31 V
+0 3009 R
+0 -31 V
+5118 448 M
+0 31 V
+0 3009 R
+0 -31 V
+5208 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+5208 308 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+5297 448 M
+0 31 V
+0 3009 R
+0 -31 V
+5387 448 M
+0 31 V
+0 3009 R
+0 -31 V
+5476 448 M
+0 31 V
+0 3009 R
+0 -31 V
+5566 448 M
+0 31 V
+0 3009 R
+0 -31 V
+5655 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+5655 308 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0.5)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+5745 448 M
+0 31 V
+0 3009 R
+0 -31 V
+5834 448 M
+0 31 V
+0 3009 R
+0 -31 V
+5924 448 M
+0 31 V
+0 3009 R
+0 -31 V
+6014 448 M
+0 31 V
+0 3009 R
+0 -31 V
+6103 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+6103 308 M
+[ [(Arial) 140.0 0.0 true true 0 ( 1)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+6193 448 M
+0 31 V
+0 3009 R
+0 -31 V
+6282 448 M
+0 31 V
+0 3009 R
+0 -31 V
+6372 448 M
+0 31 V
+0 3009 R
+0 -31 V
+6461 448 M
+0 31 V
+0 3009 R
+0 -31 V
+6551 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+6551 308 M
+[ [(Arial) 140.0 0.0 true true 0 ( 1.5)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+2.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+3864 3488 N
+0 -3040 V
+2687 0 V
+0 3040 V
+-2687 0 V
+Z stroke
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 448 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 448 M
+[ [(Arial) 140.0 0.0 true true 0 (-10)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 516 M
+47 0 V
+2640 0 R
+-47 0 V
+7224 583 M
+47 0 V
+2640 0 R
+-47 0 V
+7224 651 M
+47 0 V
+2640 0 R
+-47 0 V
+7224 718 M
+47 0 V
+2640 0 R
+-47 0 V
+7224 786 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 786 M
+[ [(Arial) 140.0 0.0 true true 0 (-8)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 853 M
+47 0 V
+2640 0 R
+-47 0 V
+7224 921 M
+47 0 V
+2640 0 R
+-47 0 V
+7224 988 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 1124 M
+[ [(Arial) 140.0 0.0 true true 0 (-6)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 1191 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 1461 M
+[ [(Arial) 140.0 0.0 true true 0 (-4)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 1529 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 1799 M
+[ [(Arial) 140.0 0.0 true true 0 (-2)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 1867 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 2137 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 2204 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 2475 M
+[ [(Arial) 140.0 0.0 true true 0 ( 2)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 2542 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 2812 M
+[ [(Arial) 140.0 0.0 true true 0 ( 4)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 2880 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 3150 M
+[ [(Arial) 140.0 0.0 true true 0 ( 6)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 3218 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 3488 M
+[ [(Arial) 140.0 0.0 true true 0 ( 8)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+7224 308 M
+[ [(Arial) 140.0 0.0 true true 0 (-1.5)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7314 448 M
+0 31 V
+0 3009 R
+0 -31 V
+7403 448 M
+0 31 V
+0 3009 R
+0 -31 V
+7493 448 M
+0 31 V
+0 3009 R
+0 -31 V
+7582 448 M
+0 31 V
+0 3009 R
+0 -31 V
+7672 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+7672 308 M
+[ [(Arial) 140.0 0.0 true true 0 (-1)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7761 448 M
+0 31 V
+0 3009 R
+0 -31 V
+7851 448 M
+0 31 V
+0 3009 R
+0 -31 V
+7941 448 M
+0 31 V
+0 3009 R
+0 -31 V
+8030 448 M
+0 31 V
+0 3009 R
+0 -31 V
+8120 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+8120 308 M
+[ [(Arial) 140.0 0.0 true true 0 (-0.5)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+8209 448 M
+0 31 V
+0 3009 R
+0 -31 V
+8299 448 M
+0 31 V
+0 3009 R
+0 -31 V
+8388 448 M
+0 31 V
+0 3009 R
+0 -31 V
+8478 448 M
+0 31 V
+0 3009 R
+0 -31 V
+8568 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+8568 308 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+8657 448 M
+0 31 V
+0 3009 R
+0 -31 V
+8747 448 M
+0 31 V
+0 3009 R
+0 -31 V
+8836 448 M
+0 31 V
+0 3009 R
+0 -31 V
+8926 448 M
+0 31 V
+0 3009 R
+0 -31 V
+9015 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+9015 308 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0.5)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+9105 448 M
+0 31 V
+0 3009 R
+0 -31 V
+9194 448 M
+0 31 V
+0 3009 R
+0 -31 V
+9284 448 M
+0 31 V
+0 3009 R
+0 -31 V
+9374 448 M
+0 31 V
+0 3009 R
+0 -31 V
+9463 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+9463 308 M
+[ [(Arial) 140.0 0.0 true true 0 ( 1)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+9553 448 M
+0 31 V
+0 3009 R
+0 -31 V
+9642 448 M
+0 31 V
+0 3009 R
+0 -31 V
+9732 448 M
+0 31 V
+0 3009 R
+0 -31 V
+9821 448 M
+0 31 V
+0 3009 R
+0 -31 V
+9911 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+9911 308 M
+[ [(Arial) 140.0 0.0 true true 0 ( 1.5)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+7224 3488 N
+0 -3040 V
+2687 0 V
+0 3040 V
+-2687 0 V
+Z stroke
+1.000 UP
+LCb setrgbcolor
+9553 2981 M
+[ [(Arial Bold) 200.0 0.0 true true 0 (f\))]
+] -66.7 MLshow
+/Arial findfont 140 scalefont setfont
+2.500 UL
+LT1
+LCb setrgbcolor
+7224 2137 M
+2687 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+LCb setrgbcolor
+6839 1968 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(Arial) 180.0 0.0 true true 0 (Energy [eV])]
+] -60.0 MCshow
+grestore
+/Arial findfont 140 scalefont setfont
+LTb
+% Begin plot #1
+3.000 UL
+LTb
+0.00 0.00 0.00 C
+8568 448 M
+0 7 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+1 9 V
+0 8 V
+1 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+-1 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+-1 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+1 9 V
+0 8 V
+0 8 V
+-1 9 V
+0 8 V
+0 9 V
+0 8 V
+1 9 V
+0 8 V
+0 9 V
+1 8 V
+0 9 V
+1 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+-1 8 V
+0 9 V
+-1 8 V
+0 9 V
+-1 8 V
+0 8 V
+0 9 V
+1 8 V
+1 9 V
+1 8 V
+2 9 V
+2 8 V
+3 9 V
+2 8 V
+1 8 V
+0 9 V
+0 8 V
+0 9 V
+-1 8 V
+0 9 V
+1 8 V
+0 9 V
+0 8 V
+0 9 V
+-1 8 V
+-1 8 V
+-1 9 V
+-2 8 V
+-1 9 V
+-2 8 V
+-1 9 V
+-2 8 V
+-1 9 V
+-1 8 V
+0 8 V
+-1 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+-1 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+-1 9 V
+0 8 V
+0 9 V
+-1 8 V
+0 9 V
+-1 8 V
+-1 9 V
+-1 8 V
+-1 8 V
+-1 9 V
+-1 8 V
+-1 9 V
+-1 8 V
+-1 9 V
+0 8 V
+-1 9 V
+0 8 V
+-1 9 V
+-1 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+1 8 V
+0 9 V
+1 8 V
+1 9 V
+0 8 V
+1 8 V
+0 9 V
+1 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+-1 9 V
+-1 8 V
+-1 9 V
+-1 8 V
+-2 8 V
+-1 9 V
+-1 8 V
+-1 9 V
+0 8 V
+0 9 V
+0 8 V
+1 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+-1 9 V
+-1 8 V
+-1 9 V
+0 8 V
+0 9 V
+0 8 V
+1 9 V
+1 8 V
+2 8 V
+2 9 V
+2 8 V
+2 9 V
+2 8 V
+2 9 V
+1 8 V
+1 9 V
+0 8 V
+1 9 V
+0 8 V
+1 8 V
+1 9 V
+0 8 V
+1 9 V
+0 8 V
+1 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+1 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+-1 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+-1 8 V
+0 8 V
+-1 9 V
+0 8 V
+0 9 V
+-1 8 V
+0 9 V
+1 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+1 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+1 8 V
+1 9 V
+1 8 V
+stroke 8569 2551 M
+1 8 V
+0 9 V
+0 8 V
+-1 9 V
+0 8 V
+-1 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+1 8 V
+2 9 V
+2 8 V
+2 9 V
+2 8 V
+2 9 V
+1 8 V
+0 9 V
+0 8 V
+-1 8 V
+-1 9 V
+-2 8 V
+-1 9 V
+-2 8 V
+-1 9 V
+-1 8 V
+-1 9 V
+-1 8 V
+0 8 V
+-1 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+-1 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+1 9 V
+0 8 V
+-1 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+-2 8 V
+-2 9 V
+-5 8 V
+-8 9 V
+-11 8 V
+-16 9 V
+-18 8 V
+-21 8 V
+-19 9 V
+-15 8 V
+-9 9 V
+0 8 V
+8 9 V
+15 8 V
+19 9 V
+20 8 V
+19 8 V
+15 9 V
+9 8 V
+3 9 V
+-6 8 V
+-15 9 V
+-22 8 V
+-30 9 V
+-35 8 V
+-37 9 V
+-35 8 V
+-31 8 V
+-24 9 V
+-15 8 V
+-3 9 V
+9 8 V
+21 9 V
+30 8 V
+35 9 V
+37 8 V
+34 8 V
+27 9 V
+19 8 V
+11 9 V
+4 8 V
+1 9 V
+0 8 V
+-1 9 V
+-1 8 V
+0 9 V
+0 7 V
+% End plot #1
+% Begin plot #2
+stroke
+LTb
+1.00 0.00 0.00 C
+8568 448 M
+0 7 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+1 8 V
+1 9 V
+5 8 V
+8 9 V
+14 8 V
+22 9 V
+30 8 V
+33 9 V
+33 8 V
+24 9 V
+13 8 V
+-2 8 V
+-13 9 V
+-19 8 V
+-21 9 V
+-20 8 V
+-16 9 V
+-12 8 V
+-9 9 V
+-7 8 V
+-6 8 V
+-4 9 V
+-4 8 V
+-2 9 V
+-3 8 V
+-2 9 V
+-1 8 V
+-2 9 V
+-1 8 V
+-2 9 V
+-2 8 V
+-1 8 V
+-2 9 V
+-1 8 V
+-1 9 V
+-1 8 V
+-1 9 V
+0 8 V
+0 9 V
+2 8 V
+3 8 V
+3 9 V
+5 8 V
+6 9 V
+6 8 V
+7 9 V
+9 8 V
+10 9 V
+13 8 V
+15 9 V
+20 8 V
+25 8 V
+30 9 V
+35 8 V
+38 9 V
+38 8 V
+32 9 V
+24 8 V
+14 9 V
+6 8 V
+-1 9 V
+-7 8 V
+-12 8 V
+-16 9 V
+-17 8 V
+-13 9 V
+-7 8 V
+1 9 V
+8 8 V
+14 9 V
+16 8 V
+18 8 V
+19 9 V
+17 8 V
+15 9 V
+9 8 V
+2 9 V
+-6 8 V
+-14 9 V
+-17 8 V
+-17 9 V
+-14 8 V
+-7 8 V
+-1 9 V
+5 8 V
+8 9 V
+9 8 V
+7 9 V
+3 8 V
+-2 9 V
+-9 8 V
+-14 8 V
+-19 9 V
+-21 8 V
+-21 9 V
+-17 8 V
+-12 9 V
+-6 8 V
+0 9 V
+4 8 V
+3 9 V
+2 8 V
+-1 8 V
+-3 9 V
+-2 8 V
+-1 9 V
+1 8 V
+0 9 V
+0 8 V
+-2 9 V
+-5 8 V
+-7 8 V
+-8 9 V
+-9 8 V
+-8 9 V
+-7 8 V
+-5 9 V
+-2 8 V
+1 9 V
+3 8 V
+4 9 V
+5 8 V
+3 8 V
+0 9 V
+-3 8 V
+-6 9 V
+-11 8 V
+-14 9 V
+-15 8 V
+-15 9 V
+-14 8 V
+-11 8 V
+-8 9 V
+-5 8 V
+-3 9 V
+-1 8 V
+0 9 V
+0 8 V
+-1 9 V
+-1 8 V
+-2 9 V
+-2 8 V
+-2 8 V
+-3 9 V
+-4 8 V
+-5 9 V
+-6 8 V
+-7 9 V
+-7 8 V
+-7 9 V
+-5 8 V
+-4 9 V
+-3 8 V
+-2 8 V
+-1 9 V
+-1 8 V
+-1 9 V
+-1 8 V
+-2 9 V
+-3 8 V
+-3 9 V
+-2 8 V
+-3 8 V
+-3 9 V
+-2 8 V
+-2 9 V
+-3 8 V
+-3 9 V
+-4 8 V
+-3 9 V
+-3 8 V
+-3 9 V
+-2 8 V
+-1 8 V
+-2 9 V
+-1 8 V
+0 9 V
+-1 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+-1 8 V
+0 8 V
+0 9 V
+0 8 V
+-1 9 V
+-1 8 V
+-3 9 V
+-7 8 V
+-10 9 V
+-14 8 V
+-19 9 V
+-21 8 V
+-21 8 V
+-17 9 V
+-12 8 V
+-8 9 V
+-5 8 V
+-6 9 V
+-8 8 V
+-14 9 V
+-18 8 V
+-22 8 V
+-28 9 V
+-34 8 V
+-44 9 V
+-60 8 V
+-77 9 V
+-92 8 V
+-100 9 V
+-94 8 V
+-74 9 V
+-37 8 V
+stroke 7720 2551 M
+15 8 V
+71 9 V
+119 8 V
+146 9 V
+148 8 V
+125 9 V
+88 8 V
+49 9 V
+10 8 V
+-28 8 V
+-63 9 V
+-101 8 V
+-135 9 V
+-165 8 V
+-182 9 V
+-182 8 V
+-162 9 V
+-125 8 V
+-73 9 V
+-13 8 V
+46 8 V
+96 9 V
+131 8 V
+145 9 V
+142 8 V
+126 9 V
+100 8 V
+72 9 V
+45 8 V
+23 8 V
+9 9 V
+1 8 V
+1 9 V
+3 8 V
+-1 9 V
+-14 8 V
+-42 9 V
+-79 8 V
+-114 9 V
+-133 8 V
+-130 8 V
+-101 9 V
+-58 8 V
+-9 9 V
+36 8 V
+70 9 V
+91 8 V
+96 9 V
+88 8 V
+71 9 V
+55 8 V
+47 8 V
+46 9 V
+53 8 V
+60 9 V
+64 8 V
+65 9 V
+58 8 V
+49 9 V
+37 8 V
+26 8 V
+16 9 V
+8 8 V
+1 9 V
+-6 8 V
+-15 9 V
+-27 8 V
+-45 9 V
+-65 8 V
+-85 9 V
+-100 8 V
+-105 8 V
+-96 9 V
+-70 8 V
+-37 9 V
+0 8 V
+32 9 V
+49 8 V
+50 9 V
+34 8 V
+6 8 V
+-27 9 V
+-52 8 V
+-64 9 V
+-58 8 V
+-39 9 V
+-14 8 V
+13 9 V
+36 8 V
+51 9 V
+60 8 V
+61 8 V
+56 9 V
+48 8 V
+39 9 V
+28 8 V
+19 9 V
+10 8 V
+2 9 V
+-6 8 V
+-13 8 V
+-19 9 V
+-23 8 V
+-26 9 V
+-26 8 V
+-21 9 V
+-15 8 V
+-5 9 V
+9 8 V
+24 9 V
+35 7 V
+% End plot #2
+% Begin plot #3
+stroke
+LTb
+0.00 0.00 1.00 C
+8568 448 M
+0 7 V
+0 9 V
+0 8 V
+0 9 V
+1 8 V
+3 8 V
+6 9 V
+15 8 V
+28 9 V
+48 8 V
+72 9 V
+96 8 V
+107 9 V
+104 8 V
+79 9 V
+40 8 V
+-1 8 V
+-35 9 V
+-55 8 V
+-59 9 V
+-52 8 V
+-41 9 V
+-31 8 V
+-22 9 V
+-17 8 V
+-12 8 V
+-11 9 V
+-9 8 V
+-8 9 V
+-7 8 V
+-7 9 V
+-7 8 V
+-7 9 V
+-7 8 V
+-7 9 V
+-7 8 V
+-6 8 V
+-7 9 V
+-7 8 V
+-7 9 V
+-6 8 V
+-5 9 V
+-3 8 V
+0 9 V
+2 8 V
+5 8 V
+7 9 V
+8 8 V
+8 9 V
+5 8 V
+3 9 V
+-1 8 V
+-1 9 V
+2 8 V
+7 9 V
+13 8 V
+20 8 V
+26 9 V
+32 8 V
+35 9 V
+34 8 V
+30 9 V
+22 8 V
+13 9 V
+5 8 V
+-1 9 V
+-7 8 V
+-12 8 V
+-18 9 V
+-20 8 V
+-21 9 V
+-16 8 V
+-10 9 V
+-4 8 V
+3 9 V
+9 8 V
+12 8 V
+14 9 V
+14 8 V
+9 9 V
+-1 8 V
+-11 9 V
+-24 8 V
+-32 9 V
+-38 8 V
+-38 9 V
+-36 8 V
+-30 8 V
+-22 9 V
+-16 8 V
+-10 9 V
+-7 8 V
+-5 9 V
+-5 8 V
+-6 9 V
+-8 8 V
+-9 8 V
+-9 9 V
+-10 8 V
+-8 9 V
+-7 8 V
+-5 9 V
+-3 8 V
+-2 9 V
+-1 8 V
+-1 9 V
+-1 8 V
+0 8 V
+-1 9 V
+-1 8 V
+-1 9 V
+-1 8 V
+-1 9 V
+-1 8 V
+-2 9 V
+-2 8 V
+-2 8 V
+-2 9 V
+-1 8 V
+-2 9 V
+-1 8 V
+-2 9 V
+-1 8 V
+-1 9 V
+-1 8 V
+0 9 V
+-2 8 V
+-1 8 V
+-2 9 V
+-2 8 V
+-2 9 V
+-3 8 V
+-1 9 V
+-2 8 V
+-1 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+1 9 V
+0 8 V
+0 9 V
+0 8 V
+1 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+-1 9 V
+-1 8 V
+-2 9 V
+-1 8 V
+-2 9 V
+-1 8 V
+-1 9 V
+-1 8 V
+-1 8 V
+0 9 V
+0 8 V
+1 9 V
+0 8 V
+0 9 V
+-1 8 V
+-1 9 V
+-2 8 V
+-3 8 V
+-2 9 V
+-2 8 V
+-1 9 V
+0 8 V
+0 9 V
+1 8 V
+1 9 V
+2 8 V
+1 9 V
+2 8 V
+2 8 V
+2 9 V
+2 8 V
+2 9 V
+2 8 V
+1 9 V
+1 8 V
+1 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+1 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+0 8 V
+0 9 V
+1 8 V
+0 9 V
+2 8 V
+1 9 V
+2 8 V
+1 8 V
+2 9 V
+1 8 V
+0 9 V
+1 8 V
+0 9 V
+-1 8 V
+0 9 V
+-1 8 V
+-1 8 V
+-2 9 V
+-2 8 V
+-2 9 V
+-3 8 V
+-3 9 V
+-3 8 V
+-5 9 V
+-5 8 V
+-5 9 V
+-4 8 V
+stroke 8542 2551 M
+-2 8 V
+1 9 V
+3 8 V
+5 9 V
+6 8 V
+4 9 V
+3 8 V
+2 9 V
+-1 8 V
+-2 8 V
+-5 9 V
+-8 8 V
+-11 9 V
+-14 8 V
+-15 9 V
+-16 8 V
+-13 9 V
+-9 8 V
+-5 9 V
+-1 8 V
+3 8 V
+7 9 V
+7 8 V
+9 9 V
+7 8 V
+7 9 V
+6 8 V
+4 9 V
+3 8 V
+2 8 V
+2 9 V
+3 8 V
+3 9 V
+2 8 V
+0 9 V
+-4 8 V
+-10 9 V
+-16 8 V
+-21 9 V
+-23 8 V
+-20 8 V
+-14 9 V
+-5 8 V
+3 9 V
+10 8 V
+13 9 V
+15 8 V
+14 9 V
+12 8 V
+11 9 V
+8 8 V
+8 8 V
+8 9 V
+8 8 V
+9 9 V
+8 8 V
+8 9 V
+5 8 V
+5 9 V
+3 8 V
+1 8 V
+-1 9 V
+-3 8 V
+-9 9 V
+-20 8 V
+-40 9 V
+-68 8 V
+-105 9 V
+-146 8 V
+-180 9 V
+-196 8 V
+-184 8 V
+-144 9 V
+-81 8 V
+-9 9 V
+54 8 V
+101 9 V
+120 8 V
+112 9 V
+77 8 V
+17 8 V
+-60 9 V
+-139 8 V
+-204 9 V
+-233 7 V
+0 122 R
+3 6 V
+-3 0 V
+% End plot #3
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 448 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 448 M
+[ [(Arial) 140.0 0.0 true true 0 (-10)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 516 M
+47 0 V
+2640 0 R
+-47 0 V
+7224 583 M
+47 0 V
+2640 0 R
+-47 0 V
+7224 651 M
+47 0 V
+2640 0 R
+-47 0 V
+7224 718 M
+47 0 V
+2640 0 R
+-47 0 V
+7224 786 M
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 786 M
+[ [(Arial) 140.0 0.0 true true 0 (-8)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 853 M
+47 0 V
+2640 0 R
+-47 0 V
+7224 921 M
+47 0 V
+2640 0 R
+-47 0 V
+7224 988 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 1124 M
+[ [(Arial) 140.0 0.0 true true 0 (-6)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 1191 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 1461 M
+[ [(Arial) 140.0 0.0 true true 0 (-4)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 1529 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 1799 M
+[ [(Arial) 140.0 0.0 true true 0 (-2)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 1867 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 2137 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 2204 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 2475 M
+[ [(Arial) 140.0 0.0 true true 0 ( 2)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 2542 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 2812 M
+[ [(Arial) 140.0 0.0 true true 0 ( 4)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 2880 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 3150 M
+[ [(Arial) 140.0 0.0 true true 0 ( 6)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 3218 M
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 67 R
+47 0 V
+2640 0 R
+-47 0 V
+-2640 68 R
+94 0 V
+2593 0 R
+-94 0 V
+stroke
+7140 3488 M
+[ [(Arial) 140.0 0.0 true true 0 ( 8)]
+] -46.7 MRshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7224 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+7224 308 M
+[ [(Arial) 140.0 0.0 true true 0 (-1.5)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7314 448 M
+0 31 V
+0 3009 R
+0 -31 V
+7403 448 M
+0 31 V
+0 3009 R
+0 -31 V
+7493 448 M
+0 31 V
+0 3009 R
+0 -31 V
+7582 448 M
+0 31 V
+0 3009 R
+0 -31 V
+7672 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+7672 308 M
+[ [(Arial) 140.0 0.0 true true 0 (-1)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+7761 448 M
+0 31 V
+0 3009 R
+0 -31 V
+7851 448 M
+0 31 V
+0 3009 R
+0 -31 V
+7941 448 M
+0 31 V
+0 3009 R
+0 -31 V
+8030 448 M
+0 31 V
+0 3009 R
+0 -31 V
+8120 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+8120 308 M
+[ [(Arial) 140.0 0.0 true true 0 (-0.5)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+8209 448 M
+0 31 V
+0 3009 R
+0 -31 V
+8299 448 M
+0 31 V
+0 3009 R
+0 -31 V
+8388 448 M
+0 31 V
+0 3009 R
+0 -31 V
+8478 448 M
+0 31 V
+0 3009 R
+0 -31 V
+8568 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+8568 308 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+8657 448 M
+0 31 V
+0 3009 R
+0 -31 V
+8747 448 M
+0 31 V
+0 3009 R
+0 -31 V
+8836 448 M
+0 31 V
+0 3009 R
+0 -31 V
+8926 448 M
+0 31 V
+0 3009 R
+0 -31 V
+9015 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+9015 308 M
+[ [(Arial) 140.0 0.0 true true 0 ( 0.5)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+9105 448 M
+0 31 V
+0 3009 R
+0 -31 V
+9194 448 M
+0 31 V
+0 3009 R
+0 -31 V
+9284 448 M
+0 31 V
+0 3009 R
+0 -31 V
+9374 448 M
+0 31 V
+0 3009 R
+0 -31 V
+9463 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+9463 308 M
+[ [(Arial) 140.0 0.0 true true 0 ( 1)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+9553 448 M
+0 31 V
+0 3009 R
+0 -31 V
+9642 448 M
+0 31 V
+0 3009 R
+0 -31 V
+9732 448 M
+0 31 V
+0 3009 R
+0 -31 V
+9821 448 M
+0 31 V
+0 3009 R
+0 -31 V
+9911 448 M
+0 63 V
+0 2977 R
+0 -63 V
+stroke
+9911 308 M
+[ [(Arial) 140.0 0.0 true true 0 ( 1.5)]
+] -46.7 MCshow
+/Arial findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+2.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+7224 3488 N
+0 -3040 V
+2687 0 V
+0 3040 V
+-2687 0 V
+Z stroke
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+stroke
+grestore
+end
+showpage
+%%Trailer
+%%DocumentFonts: Arial
